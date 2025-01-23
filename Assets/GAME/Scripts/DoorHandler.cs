@@ -1,16 +1,19 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class DoorHandler : MonoBehaviour
 {
     public bool bubble;
     public bool player;
+    public int nextSceneIndex;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         bubble = false;
         player = false;
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
     // Update is called once per frame
@@ -24,6 +27,7 @@ public class DoorHandler : MonoBehaviour
                 {
                     //go to next scene
                     Debug.Log("next level");
+                    SceneManager.LoadScene(nextSceneIndex);
                 }
             }
         }

@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638731906370707024
+  platformSettingsDirtyTick: 638732336560187181
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -124,7 +124,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: door
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5714286, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -132,9 +132,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 18
+      width: 21
       height: 20
-    spriteID: 2e16d859051175d408f9011a7745c17c
+    spriteID: 908032adee5236c4cad104b432ee0a3c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -156,11 +156,11 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 7
+        x: 4
         y: 0
-        width: 18
+        width: 21
         height: 20
-      spriteId: 2e16d859051175d408f9011a7745c17c
+      spriteId: 908032adee5236c4cad104b432ee0a3c
     linkedCells: []
     parentIndex: -1
   platformSettings:
