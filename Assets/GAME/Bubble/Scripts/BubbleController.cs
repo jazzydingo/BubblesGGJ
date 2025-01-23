@@ -26,7 +26,7 @@ public class BubbleController : MonoBehaviour
         {
             body.linearVelocity = new Vector2(0, 0);
         }
-        if(right)
+        else if(right)
         {
             body.linearVelocity = new Vector2(speed * Time.deltaTime, 0);
         }
@@ -44,11 +44,36 @@ public class BubbleController : MonoBehaviour
         }
     }
 
-    void StopMotion()
+    public void StopMotion()
     {
         up = false;
         down = false;
         right = false;
         left = false;
+    }
+
+    public void GoLeft()
+    {
+        StopMotion();
+        left = true;
+    }
+
+    public void GoRight()
+    {
+        StopMotion();
+        right = true;
+    }
+
+    public void GoUp()
+    {
+        Debug.Log("go up");
+        //StopMotion();
+        up = true;
+    }
+
+    public void GoDown()
+    {
+        StopMotion();
+        down = true;
     }
 }
