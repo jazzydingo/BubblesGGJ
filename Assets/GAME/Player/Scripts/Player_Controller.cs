@@ -41,6 +41,10 @@ public class Player_Controller : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody2D>();
     }
+    private void FixedUpdate()
+    {
+
+    }
     void Update() //constantly running things
     {
         if (isDashing) // prevents other systems if dashing
@@ -78,7 +82,7 @@ public class Player_Controller : MonoBehaviour
         }
         if (Input.GetKeyUp(KeyCode.Space) && myRigidbody.linearVelocityY > 0f)
         {
-            myRigidbody.linearVelocity = new Vector2(myRigidbody.linearVelocityX, myRigidbody.linearVelocityY * 0.5f);
+            myRigidbody.linearVelocity = new Vector2(myRigidbody.linearVelocityX, myRigidbody.linearVelocityY * 0.5f); 
 
             coyoteTimeCounter = 0f;
         }
@@ -150,9 +154,11 @@ public class Player_Controller : MonoBehaviour
         float originalGravity = myRigidbody.gravityScale;
         myRigidbody.gravityScale = 0f;
         myRigidbody.linearVelocity = new Vector2(transform.localScale.x * dashPower, 0f);
+        animator.SetBool("AnimDashing", true);
         yield return new WaitForSeconds(dashTime);
         myRigidbody.gravityScale = originalGravity;
         isDashing = false;
+        animator.SetBool("AnimDashing", false);
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
