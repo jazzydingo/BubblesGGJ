@@ -9,11 +9,14 @@ public class BubbleSpawner : MonoBehaviour
     private BubbleController bubbleController;
     private Vector3 spawnerOffset;
     public GameObject bubbleobj;
+
+    public bool free;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         scale = transform.localScale;
         Vector3 spawnerOffset = new Vector3(1,0,0);
+        free = true;
     }
 
     // Update is called once per frame
@@ -30,7 +33,7 @@ public class BubbleSpawner : MonoBehaviour
             spawner.transform.position = transform.position - spawnerOffset;
         }
 
-        if(GameObject.FindWithTag("Bubble") == null)
+        if(GameObject.FindWithTag("Bubble") == null && free) //if no other bubbles and spawner not in a block
         {
             if(Input.GetKeyDown(KeyCode.UpArrow))
             {
@@ -60,5 +63,16 @@ public class BubbleSpawner : MonoBehaviour
             }
         }
         
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(!other.CompareTag("Door"))
+        free = false;
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        free = true;
     }
 }
