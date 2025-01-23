@@ -284,12 +284,12 @@ MonoBehaviour:
   animator: {fileID: 1727423516908083885}
   boxSize: {x: 0.7, y: 0.2}
   castDistance: 0.34
-  speed: 5
+  speed: 7
   jumpStrength: 10
   coyoteTime: 0.2
   jumpBufferTime: 0.2
   dashPower: 24
-  dashTime: 0.2
+  dashTime: 0.3
   dashCooldown: 1
 --- !u!50 &7643769105616548305
 Rigidbody2D:
@@ -306,7 +306,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 3
   m_Material: {fileID: 6200000, guid: 835e3598267e7ba4fb02f469662a2998, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -314,7 +314,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
