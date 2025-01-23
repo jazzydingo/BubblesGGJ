@@ -282,12 +282,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 1727423516908083885}
-  boxSize: {x: 0.7, y: 0.2}
+  boxSize: {x: 0.44, y: 0.2}
   castDistance: 0.34
   speed: 7
   jumpStrength: 10
-  coyoteTime: 0.2
-  jumpBufferTime: 0.2
+  coyoteTime: 0.1
+  jumpBufferTime: 0.1
   dashPower: 24
   dashTime: 0.3
   dashCooldown: 1
