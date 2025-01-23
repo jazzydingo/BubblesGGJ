@@ -11,6 +11,11 @@ public class LeverHandler : MonoBehaviour
     public Sprite leverDown;
 
     public GameObject leverObj;
+
+    public GameObject objectToControl;
+
+    public FanHandler fanHandler;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -50,12 +55,16 @@ public class LeverHandler : MonoBehaviour
             lever = true;
             //set sprite to down
             leverObj.GetComponent<SpriteRenderer>().sprite = leverDown;
+            fanHandler = objectToControl.GetComponent<FanHandler>();
+            fanHandler.Flip();
         }
         else
         {
             lever = false;
             //set sprite to up
             leverObj.GetComponent<SpriteRenderer>().sprite = leverUp;
+            fanHandler = objectToControl.GetComponent<FanHandler>();
+            fanHandler.Flip();
         }
     }
 }

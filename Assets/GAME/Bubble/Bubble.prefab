@@ -96,6 +96,7 @@ MonoBehaviour:
   left: 0
   up: 0
   down: 0
+  sorrow: 0
 --- !u!50 &785494253042213946
 Rigidbody2D:
   serializedVersion: 5
