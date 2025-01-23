@@ -5,6 +5,7 @@ public class BubbleSpawner : MonoBehaviour
     private Vector3 scale;
     public GameObject spawner;
     public GameObject bubble;
+    
     private BubbleController bubbleController;
     private Vector3 spawnerOffset;
     public GameObject bubbleobj;
@@ -37,6 +38,7 @@ public class BubbleSpawner : MonoBehaviour
                 //set up true
                 bubbleController = bubbleobj.GetComponent<BubbleController>();
                 bubbleController.GoUp();
+                
             }
             else if(Input.GetKeyDown(KeyCode.DownArrow))
             {

@@ -1450,6 +1450,14 @@ PrefabInstance:
       propertyPath: spawner
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6921155227438388367, guid: ee2884f97c4da034ea2ab5ff2c3a2b75, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6921155227438388367, guid: ee2884f97c4da034ea2ab5ff2c3a2b75, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7319401285943531895, guid: ee2884f97c4da034ea2ab5ff2c3a2b75, type: 3}
       propertyPath: m_Name
       value: Player

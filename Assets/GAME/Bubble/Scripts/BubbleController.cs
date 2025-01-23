@@ -12,10 +12,7 @@ public class BubbleController : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
-        up = false;
-        down = false;
-        right = false;
-        left = false;
+        
         speed = 50;
     }
 
@@ -67,7 +64,7 @@ public class BubbleController : MonoBehaviour
     public void GoUp()
     {
         Debug.Log("go up");
-        //StopMotion();
+        StopMotion();
         up = true;
     }
 
