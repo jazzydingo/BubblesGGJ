@@ -1369,13 +1369,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299882213}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c96bb8a377ad8e47aa76317a4124937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawner: {fileID: 1299882213}
   bubble: {fileID: 6389493412285370771, guid: 87fbcf58e3aca26419bc582dd644d88c, type: 3}
+  bubbleobj: {fileID: 0}
 --- !u!1001 &1552175114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1492,6 +1493,10 @@ PrefabInstance:
     - target: {fileID: 8657581071163843042, guid: ee2884f97c4da034ea2ab5ff2c3a2b75, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9059581752555864814, guid: ee2884f97c4da034ea2ab5ff2c3a2b75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.279
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
