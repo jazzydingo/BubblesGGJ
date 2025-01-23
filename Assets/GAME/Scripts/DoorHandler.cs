@@ -36,10 +36,14 @@ public class DoorHandler : MonoBehaviour
         if(other.CompareTag("Bubble"))
         {
             Debug.Log("bubble");
-            //destroy bubble
-            Destroy(other.gameObject);
-            //set bubble true
-            bubble = true;
+            if(other.gameObject.GetComponent<BubbleController>().sorrow  == true)
+            {
+                //destroy bubble
+                Destroy(other.gameObject);
+                //set bubble true
+                bubble = true;
+            }
+            
         }
 
         else if(other.CompareTag("Player"))
