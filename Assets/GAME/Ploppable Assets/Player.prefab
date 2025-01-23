@@ -352,9 +352,9 @@ MonoBehaviour:
   jumpStrength: 10
   coyoteTime: 0.1
   jumpBufferTime: 0.1
-  dashPower: 24
+  dashPower: 13
   dashTime: 0.3
-  dashCooldown: 1
+  dashCooldown: 0.2
 --- !u!50 &7643769105616548305
 Rigidbody2D:
   serializedVersion: 5
