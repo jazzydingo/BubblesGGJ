@@ -8,6 +8,7 @@ public class BubbleController : MonoBehaviour
     public bool left;
     public bool up;
     public bool down;
+    public bool sorrow;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
