@@ -7,6 +7,7 @@ TagManager:
   - Bubble
   - Sorrow
   - Door
+  - Lever
   layers:
   - Default
   - TransparentFX

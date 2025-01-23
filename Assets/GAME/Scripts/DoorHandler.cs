@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class DoorHandler : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class DoorHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.W))
+        if(InputSystem.actions["Move"].ReadValue<Vector2>().y ==1 )
         {
             if(bubble)
             {
