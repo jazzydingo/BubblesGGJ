@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/GAME/Scenes/0 Tutorial Scene.unity
     guid: 230664d48a98f1145af27fde2782c018
   - enabled: 1
+    path: Assets/GAME/Scenes/1 Parkour.unity
+    guid: c7ee569948054ad4fa717b14621287d0
+  - enabled: 1
+    path: Assets/GAME/Scenes/2 Scene.unity
+    guid: 7f328cc3c45cf274d93b755552533dd2
+  - enabled: 1
     path: Assets/GAME/Scenes/Level.unity
     guid: 64db804a9cf28af48a7f9147c0893d5d
   - enabled: 1
