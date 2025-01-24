@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Bubble
+  - Sorrow
+  - Door
+  - Lever
   layers:
   - Default
   - TransparentFX

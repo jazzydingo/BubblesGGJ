@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.Rendering;
 using UnityEngine.UIElements;
+using UnityEngine.InputSystem;
 [SelectionBase]
 public class Player_Controller : MonoBehaviour
 {
@@ -61,10 +62,10 @@ public class Player_Controller : MonoBehaviour
     }
     private void Run() //Horizontal Movement
     {
-        move = Input.GetAxisRaw("Horizontal");
+        move = InputSystem.actions["Move"].ReadValue<Vector2>().x;
         {
             myRigidbody.linearVelocity = new Vector2(move * speed, myRigidbody.linearVelocityY);
-            if (Input.GetAxisRaw("Horizontal") != 0)
+            if (move != 0)
             {
                 animator.SetBool("isRunning", true);
             }
