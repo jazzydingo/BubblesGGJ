@@ -70399,6 +70399,10 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[2400].second.m_TileObjectToInstantiateIndex
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 7549467154976618210, guid: 3cbddb3077d5c1643be7ee56ec3a3578, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9166350482552190550, guid: 3cbddb3077d5c1643be7ee56ec3a3578, type: 3}
       propertyPath: m_Name
       value: World
