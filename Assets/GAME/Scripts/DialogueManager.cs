@@ -22,6 +22,7 @@ public class DialogueManager : MonoBehaviour
         index = 0;
         nameTag.text = characterName;
         body.text = "";
+        end = false;
         
     }
 
@@ -34,13 +35,18 @@ public class DialogueManager : MonoBehaviour
     {
         if(InputSystem.actions["Move"].ReadValue<Vector2>().y == 1 && !isTyping)
         {
-            StartCoroutine(TypeLine());
+            if(end)
+            {
+                index = 0;
+                this.gameObject.SetActive(false);
+            }
+            else
+            {
+                StartCoroutine(TypeLine());
+
+            }
         }
-        else if(InputSystem.actions["Move"].ReadValue<Vector2>().y == 1 && end)
-        {
-            index = 0;
-            this.gameObject.SetActive(false);
-        }
+        
     }
 
     IEnumerator TypeLine()
