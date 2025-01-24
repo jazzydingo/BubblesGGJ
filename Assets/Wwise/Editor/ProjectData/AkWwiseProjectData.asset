@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c21469e33fa3b3418ea3638182eee65e
     GuidInternal: 
-    m_lastTime: -8584639222035313884
+    m_lastTime: -8584638696674010814
     List:
     - name: Main
       guid: ae3f75cb80fbdd4489b28258a11c146b
@@ -94,8 +94,45 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3eb30d4ca6338042aab81d1120b1c7d7
     GuidInternal: 
-    m_lastTime: -8584639222035376502
-    List: []
+    m_lastTime: -8584638696674025920
+    List:
+    - name: octo_jump
+      guid: 8993b8e9b298674ba339604aed1a17ba
+      id: 551071615
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: Octopus
+        ObjectType: 4
+        guid: 253a85349a709640a45d259bf36033dd
+      - ElementName: octo_jump
+        ObjectType: 3
+        guid: 8993b8e9b298674ba339604aed1a17ba
+      Path: Events\Default Work Unit\Octopus\octo_jump
+      maxAttenuation: 0
+      maxDuration: 1.1134014
+      minDuration: 1.1134014
+    - name: Octopus
+      guid: 253a85349a709640a45d259bf36033dd
+      id: 1693003300
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: Octopus
+        ObjectType: 4
+        guid: 253a85349a709640a45d259bf36033dd
+      Path: Events\Default Work Unit\Octopus
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -153,7 +190,7 @@ MonoBehaviour:
     m_lastTime: -8584639222035303886
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b00000014000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

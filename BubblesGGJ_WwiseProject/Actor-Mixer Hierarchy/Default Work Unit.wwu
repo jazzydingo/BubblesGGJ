@@ -1,6 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="octo_jump" ID="{75233AB9-5996-4E3D-B65D-5F6CEC9FB7F4}" ShortID="335389839">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="octo_jump-001" ID="{5EA454D0-0312-49C8-8D6F-E287D644F3A6}" ShortID="385787191">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="octo_jump-001" ID="{8FD1A12D-55D8-466C-AFA2-65D8B58BD2A9}">
+									<Language>SFX</Language>
+									<AudioFile>octo_jump-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="662339319"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="octo_jump-001" ID="{8FD1A12D-55D8-466C-AFA2-65D8B58BD2A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="octo_jump-002" ID="{A9875DAB-38BB-4657-9D73-3B2D57488B0E}" ShortID="434624856">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="octo_jump-002" ID="{FCE390B5-710C-4C17-B8EE-1A6F78B054F7}">
+									<Language>SFX</Language>
+									<AudioFile>octo_jump-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="473717917"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="octo_jump-002" ID="{FCE390B5-710C-4C17-B8EE-1A6F78B054F7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="octo_jump-003" ID="{98D09D98-476C-4C09-B3B6-98AFD9B303A6}" ShortID="223567323">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="octo_jump-003" ID="{E6ED7DCA-7A78-4CFC-ABCC-0BA8B131F777}">
+									<Language>SFX</Language>
+									<AudioFile>octo_jump-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="368394563"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="octo_jump-003" ID="{E6ED7DCA-7A78-4CFC-ABCC-0BA8B131F777}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="octo_jump-005" ID="{AFFA83AA-9A6A-49FA-B9BC-83866EE19156}" ShortID="176737507">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="octo_jump-005" ID="{4B472F5F-6D4B-4FB9-81F8-6B19CA797ACF}">
+									<Language>SFX</Language>
+									<AudioFile>octo_jump-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="82219155"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="octo_jump-005" ID="{4B472F5F-6D4B-4FB9-81F8-6B19CA797ACF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="octo_jump-004" ID="{5770BF74-31A5-4B30-9863-18FA98321EA0}" ShortID="376763455">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="octo_jump-004" ID="{580B5AD5-1050-4E52-A82A-D446D8834F16}">
+									<Language>SFX</Language>
+									<AudioFile>octo_jump-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="295866559"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="octo_jump-004" ID="{580B5AD5-1050-4E52-A82A-D446D8834F16}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Octopus" ID="{34853A25-709A-4096-A45D-259BF36033DD}" ShortID="253822420">
+					<ChildrenList>
+						<Event Name="octo_jump" ID="{E9B89389-98B2-4B67-A339-604AED1A17BA}">
+							<ChildrenList>
+								<Action Name="" ID="{5F3F32BA-9F8B-4A23-9854-8EFB59B7DA7B}" ShortID="234600903">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="octo_jump" ID="{75233AB9-5996-4E3D-B65D-5F6CEC9FB7F4}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

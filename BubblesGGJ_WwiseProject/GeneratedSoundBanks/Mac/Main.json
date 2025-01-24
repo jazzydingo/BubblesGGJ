@@ -10,12 +10,82 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{11CE3D2C-B4A2-49DB-D6D7-5BEFB7DE3069}",
+    "Hash": "{C103B9E2-83E9-5E15-C915-82228A44A99B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
-    "Path": "Main.bnk"
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "82219155",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_jump-005.wav",
+      "CachePath": "06/{060432AE-999C-451E-1516-E1AD674C5962}.wem"
+     },
+     {
+      "Id": "295866559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_jump-004.wav",
+      "CachePath": "BF/{BFA42D71-757D-05E4-AE5E-771D8C8AA749}.wem"
+     },
+     {
+      "Id": "368394563",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_jump-003.wav",
+      "CachePath": "72/{72F38306-C09E-3DF5-4FB2-13F11C39ABFF}.wem"
+     },
+     {
+      "Id": "473717917",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_jump-002.wav",
+      "CachePath": "CE/{CE4D6BE1-892A-7CC3-D36D-C8BDBE3A15E4}.wem"
+     },
+     {
+      "Id": "662339319",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_jump-001.wav",
+      "CachePath": "B4/{B4E71F8D-CCCB-9B68-3FAC-6D37EB30EA92}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "551071615",
+      "Name": "octo_jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Octopus\\octo_jump",
+      "GUID": "{E9B89389-98B2-4B67-A339-604AED1A17BA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1134014",
+      "DurationMax": "1.1134014",
+      "MediaRefs": [
+       {
+        "Id": "82219155"
+       },
+       {
+        "Id": "295866559"
+       },
+       {
+        "Id": "368394563"
+       },
+       {
+        "Id": "473717917"
+       },
+       {
+        "Id": "662339319"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{65E4B554-9875-091B-0FE7-8D8E9732B873}"
+  "FileHash": "{181A0930-43A6-2701-C08C-4F236306D33B}"
  }
 }

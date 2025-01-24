@@ -346,6 +346,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   animator: {fileID: 1727423516908083885}
+  sfxObj: {fileID: 0}
   boxSize: {x: 0.44, y: 0.2}
   castDistance: 0.34
   speed: 7

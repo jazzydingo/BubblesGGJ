@@ -13,6 +13,8 @@ public class Player_Controller : MonoBehaviour
     public LayerMask groundLayer;
     public Animator animator;
 
+    public GameObject sfxObj;
+
     //Ground Collision Raycast Variables
     public Vector2 boxSize;
     public float castDistance;
@@ -27,6 +29,8 @@ public class Player_Controller : MonoBehaviour
     private float coyoteTimeCounter;
     public float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
+
+    public bool inJump = false;
 
     //Flipping right & left
     private bool isFacingRight = true;
@@ -79,13 +83,25 @@ public class Player_Controller : MonoBehaviour
     {
         if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
         {
+            
             myRigidbody.linearVelocity = new Vector2(myRigidbody.linearVelocityX,jumpStrength);
+        }
+        if(Input.GetKeyDown(KeyCode.Space) && !inJump)
+        {
+            inJump = true;
+            AkSoundEngine.PostEvent("octo_jump", sfxObj);
         }
         if (Input.GetKeyUp(KeyCode.Space) && myRigidbody.linearVelocityY > 0f)
         {
+            inJump = true;
             myRigidbody.linearVelocity = new Vector2(myRigidbody.linearVelocityX, myRigidbody.linearVelocityY * 0.5f); 
 
             coyoteTimeCounter = 0f;
+            
+        }
+        if(isGrounded())
+        {
+            inJump = false;
         }
     }
     private void Dashing() //Dashing
