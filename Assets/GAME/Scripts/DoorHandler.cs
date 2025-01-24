@@ -11,8 +11,8 @@ public class DoorHandler : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        bubble = false;
-        player = false;
+        //bubble = false;
+        //player = false;
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
