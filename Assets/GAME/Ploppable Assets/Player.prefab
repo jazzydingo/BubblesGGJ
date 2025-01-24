@@ -353,6 +353,7 @@ MonoBehaviour:
   jumpStrength: 10
   coyoteTime: 0.1
   jumpBufferTime: 0.1
+  inJump: 0
   dashPower: 13
   dashTime: 0.3
   dashCooldown: 0.2

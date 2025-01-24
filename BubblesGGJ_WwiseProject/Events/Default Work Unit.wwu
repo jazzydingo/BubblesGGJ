@@ -16,6 +16,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="octo_dash" ID="{4196DFCF-2006-48C9-933E-013E6F696CBA}">
+							<ChildrenList>
+								<Action Name="" ID="{B93DBF8D-1F40-482B-BCFE-E7C0E39263D1}" ShortID="963429761">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="octo_dash" ID="{949675FF-D239-4629-95F1-1CDAD0B2CD91}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

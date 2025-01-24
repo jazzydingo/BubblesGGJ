@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{C103B9E2-83E9-5E15-C915-82228A44A99B}",
+    "Hash": "{46337B84-2295-7F6F-4083-F69563200E32}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "octo_jump-005.wav",
       "CachePath": "06/{060432AE-999C-451E-1516-E1AD674C5962}.wem"
+     },
+     {
+      "Id": "82667878",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_dash1.wav",
+      "CachePath": "77/{77D9925F-3902-8959-7758-78B68ED1FBB8}.wem"
      },
      {
       "Id": "295866559",
@@ -40,6 +48,14 @@
       "CachePath": "72/{72F38306-C09E-3DF5-4FB2-13F11C39ABFF}.wem"
      },
      {
+      "Id": "376098875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_dash2.wav",
+      "CachePath": "1B/{1B85366C-9416-3440-3AAE-D0CD840200BC}.wem"
+     },
+     {
       "Id": "473717917",
       "Language": "SFX",
       "Streaming": "false",
@@ -54,9 +70,37 @@
       "Location": "Memory",
       "ShortName": "octo_jump-001.wav",
       "CachePath": "B4/{B4E71F8D-CCCB-9B68-3FAC-6D37EB30EA92}.wem"
+     },
+     {
+      "Id": "880605622",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_dash3.wav",
+      "CachePath": "59/{59A0C06B-B0A9-EA2A-DA51-CEEE02A0B3B4}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "443360503",
+      "Name": "octo_dash",
+      "ObjectPath": "\\Events\\Default Work Unit\\Octopus\\octo_dash",
+      "GUID": "{4196DFCF-2006-48C9-933E-013E6F696CBA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8178004",
+      "DurationMax": "1.8178004",
+      "MediaRefs": [
+       {
+        "Id": "82667878"
+       },
+       {
+        "Id": "376098875"
+       },
+       {
+        "Id": "880605622"
+       }
+      ]
+     },
      {
       "Id": "551071615",
       "Name": "octo_jump",
@@ -86,6 +130,6 @@
     ]
    }
   ],
-  "FileHash": "{181A0930-43A6-2701-C08C-4F236306D33B}"
+  "FileHash": "{CE38C384-951E-5772-0CED-7E79503E7E3E}"
  }
 }

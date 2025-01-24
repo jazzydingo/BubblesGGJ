@@ -108,6 +108,7 @@ public class Player_Controller : MonoBehaviour
     {
         if (Input.GetKeyDown (KeyCode.LeftShift) && canDash)
         {
+            AkSoundEngine.PostEvent("octo_dash", sfxObj);
             StartCoroutine(Dash());
         }
     }

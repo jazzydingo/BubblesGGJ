@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c21469e33fa3b3418ea3638182eee65e
     GuidInternal: 
-    m_lastTime: -8584638684839248393
+    m_lastTime: -8584638653452181323
     List:
     - name: Main
       guid: ae3f75cb80fbdd4489b28258a11c146b
@@ -94,8 +94,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3eb30d4ca6338042aab81d1120b1c7d7
     GuidInternal: 
-    m_lastTime: -8584638684840559020
+    m_lastTime: -8584638653853034550
     List:
+    - name: octo_dash
+      guid: cfdf96410620c948933e013e6f696cba
+      id: 443360503
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: Octopus
+        ObjectType: 4
+        guid: 253a85349a709640a45d259bf36033dd
+      - ElementName: octo_dash
+        ObjectType: 3
+        guid: cfdf96410620c948933e013e6f696cba
+      Path: Events\Default Work Unit\Octopus\octo_dash
+      maxAttenuation: 0
+      maxDuration: 1.8178004
+      minDuration: 1.8178004
     - name: octo_jump
       guid: 8993b8e9b298674ba339604aed1a17ba
       id: 551071615

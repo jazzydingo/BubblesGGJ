@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID OCTO_DASH = 443360503U;
         static const AkUniqueID OCTO_JUMP = 551071615U;
     } // namespace EVENTS
 

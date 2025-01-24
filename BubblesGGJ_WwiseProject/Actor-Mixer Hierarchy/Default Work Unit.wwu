@@ -125,6 +125,84 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="octo_dash" ID="{949675FF-D239-4629-95F1-1CDAD0B2CD91}" ShortID="897126117">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="octo_dash1" ID="{A5F20313-8626-46C5-B68A-15BDBA56F3B2}" ShortID="110064790">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="octo_dash1" ID="{5E841E41-5A09-4669-8FBB-0C7625EF6453}">
+									<Language>SFX</Language>
+									<AudioFile>octo_dash1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="82667878"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="octo_dash1" ID="{5E841E41-5A09-4669-8FBB-0C7625EF6453}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="octo_dash2" ID="{E967EDEB-D809-4E64-9562-EA0D10495399}" ShortID="860777942">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="octo_dash2" ID="{3C00B35D-7C9A-401D-9C51-CECC7538D04B}">
+									<Language>SFX</Language>
+									<AudioFile>octo_dash2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="376098875"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="octo_dash2" ID="{3C00B35D-7C9A-401D-9C51-CECC7538D04B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="octo_dash3" ID="{5D12E82E-AC43-4353-9D26-273B4CE9BB17}" ShortID="563258754">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="octo_dash3" ID="{9BA5D205-8A20-4FE8-856E-BEC5ADD22E45}">
+									<Language>SFX</Language>
+									<AudioFile>octo_dash3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="880605622"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="octo_dash3" ID="{9BA5D205-8A20-4FE8-856E-BEC5ADD22E45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
