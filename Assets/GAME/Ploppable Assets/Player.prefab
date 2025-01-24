@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb96287014ff28b42ad14ea6cae363a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myRigidbody: {fileID: 0}
+  myRigidbody: {fileID: 7643769105616548305}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
