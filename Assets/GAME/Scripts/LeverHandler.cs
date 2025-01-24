@@ -55,16 +55,24 @@ public class LeverHandler : MonoBehaviour
             lever = true;
             //set sprite to down
             leverObj.GetComponent<SpriteRenderer>().sprite = leverDown;
-            fanHandler = objectToControl.GetComponent<FanHandler>();
-            fanHandler.Flip();
+            if(objectToControl != null)
+            {
+                
+                fanHandler = objectToControl.GetComponent<FanHandler>();
+                fanHandler.Flip();
+            }
         }
         else
         {
             lever = false;
             //set sprite to up
             leverObj.GetComponent<SpriteRenderer>().sprite = leverUp;
-            fanHandler = objectToControl.GetComponent<FanHandler>();
-            fanHandler.Flip();
+            if(objectToControl != null)
+            {
+                fanHandler = objectToControl.GetComponent<FanHandler>();
+                fanHandler.Flip();
+            }
+            
         }
     }
 }
