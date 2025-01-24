@@ -62,15 +62,15 @@ public class FanHandler : MonoBehaviour
             bubble = other.gameObject;
             overlap = true;
         }
-        else
-        {
-            overlap = false;
-        }
+        
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        overlap = false;
+        if(other.CompareTag("Bubble"))
+        {
+            overlap = false;
+        }
     }
 
     public void Flip()
