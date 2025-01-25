@@ -8436,6 +8436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: blobfish sprite
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 982cca7f0d3a6aa4b8a51cc7344057d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 04d42f25d159d404e887750ada5903ea, type: 2}
     - target: {fileID: 7878350319992209165, guid: 982cca7f0d3a6aa4b8a51cc7344057d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.134

@@ -114,8 +114,8 @@ MonoBehaviour:
         guid: cfdf96410620c948933e013e6f696cba
       Path: Events\Default Work Unit\Octopus\octo_dash
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.8178004
+      minDuration: 1.8178004
     - name: octo_jump
       guid: 8993b8e9b298674ba339604aed1a17ba
       id: 551071615
@@ -134,8 +134,8 @@ MonoBehaviour:
         guid: 8993b8e9b298674ba339604aed1a17ba
       Path: Events\Default Work Unit\Octopus\octo_jump
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.1134014
+      minDuration: 1.1134014
     - name: octo_land
       guid: 0e680846cab3c842859c2af24c00b0a4
       id: 2483300628
@@ -154,8 +154,8 @@ MonoBehaviour:
         guid: 0e680846cab3c842859c2af24c00b0a4
       Path: Events\Default Work Unit\Octopus\octo_land
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.1627665
+      minDuration: 1.1627665
     - name: Octopus
       guid: 253a85349a709640a45d259bf36033dd
       id: 1693003300

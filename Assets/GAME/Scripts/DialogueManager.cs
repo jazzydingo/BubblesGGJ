@@ -15,47 +15,56 @@ public class DialogueManager : MonoBehaviour
     public int index; 
     public bool isTyping;
     public bool end;
+    public bool next;
+
+    public Canvas dialogueCanvas;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         index = 0;
         nameTag.text = characterName;
-        body.text = "";
         end = false;
+        
+        //StartCoroutine(TypeLine());
         
     }
 
     void Update()
     {
-        body.text = currentLine;
+        
     }
-    // Update is called once per frame
+
     void FixedUpdate()
     {
-        if(InputSystem.actions["Move"].ReadValue<Vector2>().y == 1 && !isTyping)
-        {
-            if(end)
-            {
-                index = 0;
-                this.gameObject.SetActive(false);
-            }
-            else
-            {
-                StartCoroutine(TypeLine());
-
-            }
-        }
         
+        if(InputSystem.actions["Move"].ReadValue<Vector2>().y == 1 && !isTyping && !end)
+        {
+            StartCoroutine(TypeLine());
+
+        }
+        else if(end)
+        {
+            StartCoroutine(WaitUntilNext());
+            Debug.Log("end");
+            index = 0;
+            dialogueCanvas.gameObject.SetActive(false);
+        }
+    }
+    // Update is called once per frame
+    IEnumerator WaitUntilNext()
+    {
+        yield return new WaitUntil(() => Keyboard.current.wKey.wasPressedThisFrame);
     }
 
     IEnumerator TypeLine()
     {
-        currentLine = "";
+        body.text = "";
         isTyping = true;
         foreach(char c in dialogue[index])
         {
-            currentLine += c;
+            body.text += c;
             yield return new WaitForSeconds(0.01f);
         }
         NextLine();

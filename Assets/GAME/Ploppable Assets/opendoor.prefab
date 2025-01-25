@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 04d42f25d159d404e887750ada5903ea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126,8 +126,8 @@ BoxCollider2D:
   m_Offset: {x: -0.0033055544, y: 0.042718828}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.5625, y: 0.625}
+    pivot: {x: 0.5, y: 0.099999994}
+    oldSize: {x: 0.71875, y: 0.78125}
     newSize: {x: 0.21, y: 0.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -151,3 +151,4 @@ MonoBehaviour:
   player: 0
   nextSceneIndex: 0
   openDoor: {fileID: 7296655611519912515, guid: 4ae4e584fe147444ab998d3c3120fcd4, type: 3}
+  material: {fileID: 0}

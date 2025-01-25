@@ -16,10 +16,13 @@ public class LeverHandler : MonoBehaviour
 
     public FanHandler fanHandler;
 
+    private Material material;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         lever = false;
+        material = this.gameObject.GetComponent<SpriteRenderer>().material;
     }
 
     // Update is called once per frame
@@ -39,13 +42,14 @@ public class LeverHandler : MonoBehaviour
         {
             
             FlipLever();
+            material.SetFloat("_Thickness", 0.023f);
             
         }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-
+        material.SetFloat("_Thickness", 0f);
     }
 
     void FlipLever()

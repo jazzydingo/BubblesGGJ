@@ -7,15 +7,16 @@ public class DoorHandler : MonoBehaviour
 {
     public bool bubble;
     public bool player;
-    public int nextSceneIndex;
     public Sprite openDoor;
+    public Material material;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //bubble = false;
         //player = false;
-        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        
+        material = this.gameObject.GetComponent<SpriteRenderer>().material;
     }
 
     // Update is called once per frame
@@ -29,7 +30,7 @@ public class DoorHandler : MonoBehaviour
                 {
                     //go to next scene
                     Debug.Log("next level");
-                    SceneManager.LoadScene(nextSceneIndex);
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 }
             }
         }
@@ -61,6 +62,11 @@ public class DoorHandler : MonoBehaviour
         else if(other.CompareTag("Player"))
         {
             player = true;
+            if(bubble)
+            {
+                //highlight
+                material.SetFloat("_Thickness", 0.023f);
+            }
         }
     }
 
@@ -69,6 +75,7 @@ public class DoorHandler : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             player = false;
+            material.SetFloat("_Thickness", 0f);
         }
     }
 }

@@ -48,15 +48,7 @@ public class Player_Controller : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody2D>();
     }
-    private void FixedUpdate()
-    {
-        /*
-        if(!isGrounded())
-        {
-            StartCoroutine(WaitUntilLand());
-        }
-        */
-    }
+    
     void Update() //constantly running things
     {
         if (isDashing) // prevents other systems if dashing

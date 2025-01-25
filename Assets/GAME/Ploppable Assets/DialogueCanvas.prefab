@@ -333,6 +333,10 @@ MonoBehaviour:
   characterName: 
   dialogue: []
   currentLine: 
+  index: 0
+  isTyping: 0
+  end: 0
+  dialogueCanvas: {fileID: 7001825298056666723}
 --- !u!1 &3660726300901601810
 GameObject:
   m_ObjectHideFlags: 0
