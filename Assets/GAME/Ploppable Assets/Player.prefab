@@ -357,6 +357,7 @@ MonoBehaviour:
   dashPower: 13
   dashTime: 0.3
   dashCooldown: 0.2
+  wasGrounded: 0
 --- !u!50 &7643769105616548305
 Rigidbody2D:
   serializedVersion: 5
