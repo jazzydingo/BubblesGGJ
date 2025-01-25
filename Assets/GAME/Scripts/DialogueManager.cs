@@ -33,7 +33,10 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        
+        if(Input.GetKeyUp(KeyCode.W))
+        {
+            next = true;
+        }
     }
 
     void FixedUpdate()
@@ -41,6 +44,7 @@ public class DialogueManager : MonoBehaviour
         
         if(InputSystem.actions["Move"].ReadValue<Vector2>().y == 1 && !isTyping && !end)
         {
+            next = false;
             StartCoroutine(TypeLine());
 
         }
@@ -55,11 +59,12 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     IEnumerator WaitUntilNext()
     {
-        yield return new WaitUntil(() => Keyboard.current.wKey.wasPressedThisFrame);
+        yield return new WaitUntil(() => next);
     }
 
     IEnumerator TypeLine()
     {
+        
         body.text = "";
         isTyping = true;
         foreach(char c in dialogue[index])
@@ -69,6 +74,7 @@ public class DialogueManager : MonoBehaviour
         }
         NextLine();
         isTyping = false;
+
         yield return null;
     }
 

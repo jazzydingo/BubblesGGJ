@@ -43,6 +43,7 @@ public class Player_Controller : MonoBehaviour
     public float dashCooldown = 1f;
     
     public bool wasGrounded;
+    public bool landSound = false;
 
     void Start() //runs on start
     {
@@ -74,6 +75,7 @@ public class Player_Controller : MonoBehaviour
                 if(!isGrounded() && wasGrounded)
                 {
                     wasGrounded = false; 
+                    landSound = false;
                     StartCoroutine(WaitUntilLand());
                 }
             }
@@ -93,6 +95,7 @@ public class Player_Controller : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && !inJump)
         {
             inJump = true;
+            landSound = false;
             AkSoundEngine.PostEvent("octo_jump", sfxObj);
             
         }
@@ -121,8 +124,13 @@ public class Player_Controller : MonoBehaviour
     {
         yield return new WaitUntil(() => isGrounded());
 
-
-        AkSoundEngine.PostEvent("octo_land", sfxObj);
+        if(!landSound)
+        {
+            AkSoundEngine.PostEvent("octo_land", sfxObj);
+            landSound = true;
+        }
+        
+        
     }
     private void Dashing() //Dashing
     {

@@ -6727,7 +6727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6086474527806227814, guid: 375e688f5e4e947438501d5bc124bc3c, type: 3}
       propertyPath: 'dialogue.Array.data[5]'
-      value: Anyways, my door is open for ya. Thanks in advance...
+      value: 'Anyways, my door is open for ya. Thanks in advance...                                   '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

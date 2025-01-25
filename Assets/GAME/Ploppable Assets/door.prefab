@@ -127,8 +127,8 @@ BoxCollider2D:
   m_Offset: {x: -0.0033055544, y: 0.042718828}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5714286, y: 0}
-    oldSize: {x: 0.65625, y: 0.625}
+    pivot: {x: 0.55769235, y: 0.099999994}
+    oldSize: {x: 0.8125, y: 0.78125}
     newSize: {x: 0.5625, y: 0.625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -150,8 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bubble: 0
   player: 0
-  nextSceneIndex: 0
   openDoor: {fileID: 0}
+  material: {fileID: 0}
 --- !u!210 &6528117546033932384
 SortingGroup:
   m_ObjectHideFlags: 0
