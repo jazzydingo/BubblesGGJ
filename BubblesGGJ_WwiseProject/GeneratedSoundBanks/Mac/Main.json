@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{CB131871-0248-276B-8D57-50A6D0BBCB68}",
+    "Hash": "{2B1AD9FE-B305-AA86-7930-9AC08018C74E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -104,6 +104,14 @@
       "CachePath": "AF/{AF1D90BF-F516-DC20-981A-7422C3370349}.wem"
      },
      {
+      "Id": "1034230690",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octopus_music.wav",
+      "CachePath": "14/{14E4F4DC-4CB0-AACC-1439-5B4631D85699}.wem"
+     },
+     {
       "Id": "1046550350",
       "Language": "SFX",
       "Streaming": "false",
@@ -181,10 +189,22 @@
         "Id": "1046550350"
        }
       ]
+     },
+     {
+      "Id": "2932040671",
+      "Name": "play_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_music",
+      "GUID": "{B72B7697-88FE-4086-9FBD-29630EE8CF96}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1034230690"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{2BA4B5A4-0B23-5E92-5181-DD0FDAEF78EE}"
+  "FileHash": "{DBFCB70C-0DE8-6351-7737-E96943E565A7}"
  }
 }

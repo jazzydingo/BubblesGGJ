@@ -40,6 +40,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="play_music" ID="{B72B7697-88FE-4086-9FBD-29630EE8CF96}">
+					<ChildrenList>
+						<Action Name="" ID="{648B91DE-13E6-4810-8E69-2E5C7D4C5427}" ShortID="719831101">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SoundtrackLoop" ID="{5C4BD0A0-DE7B-421F-9CC6-768EA867959D}" WorkUnitID="{D1198347-450C-4F26-A30C-1BA4E86D7F35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

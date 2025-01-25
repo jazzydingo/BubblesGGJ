@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c21469e33fa3b3418ea3638182eee65e
     GuidInternal: 
-    m_lastTime: -8584638225460989828
+    m_lastTime: -8584637696316528613
     List:
     - name: Main
       guid: ae3f75cb80fbdd4489b28258a11c146b
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3eb30d4ca6338042aab81d1120b1c7d7
     GuidInternal: 
-    m_lastTime: -8584638179327089680
+    m_lastTime: -8584637691482904850
     List:
     - name: octo_dash
       guid: cfdf96410620c948933e013e6f696cba
@@ -173,6 +173,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: play_music
+      guid: 97762bb7fe8886409fbd29630ee8cf96
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: play_music
+        ObjectType: 3
+        guid: 97762bb7fe8886409fbd29630ee8cf96
+      Path: Events\Default Work Unit\play_music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

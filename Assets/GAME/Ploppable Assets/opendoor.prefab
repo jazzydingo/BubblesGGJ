@@ -149,6 +149,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bubble: 0
   player: 0
-  nextSceneIndex: 0
   openDoor: {fileID: 7296655611519912515, guid: 4ae4e584fe147444ab998d3c3120fcd4, type: 3}
   material: {fileID: 0}
