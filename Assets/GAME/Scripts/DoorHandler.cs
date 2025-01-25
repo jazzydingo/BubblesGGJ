@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DoorHandler : MonoBehaviour
 {
     public bool bubble;
     public bool player;
     public int nextSceneIndex;
+    public Sprite openDoor;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,6 +36,11 @@ public class DoorHandler : MonoBehaviour
         //if bubble overlaps, destroy bubble and set bubble true
 
         //if bubble true then if player overlap and preses W, they go to next level
+
+        if(bubble)
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = openDoor;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
