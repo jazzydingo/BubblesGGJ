@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID OCTO_DASH = 443360503U;
         static const AkUniqueID OCTO_JUMP = 551071615U;
+        static const AkUniqueID OCTO_LAND = 2483300628U;
     } // namespace EVENTS
 
     namespace BANKS

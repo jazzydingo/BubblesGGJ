@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{46337B84-2295-7F6F-4083-F69563200E32}",
+    "Hash": "{CB131871-0248-276B-8D57-50A6D0BBCB68}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "octo_dash1.wav",
       "CachePath": "77/{77D9925F-3902-8959-7758-78B68ED1FBB8}.wem"
+     },
+     {
+      "Id": "183669025",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_land-004.wav",
+      "CachePath": "27/{270118F1-733E-BD6F-A398-0DE8834B9A47}.wem"
      },
      {
       "Id": "295866559",
@@ -56,6 +64,14 @@
       "CachePath": "1B/{1B85366C-9416-3440-3AAE-D0CD840200BC}.wem"
      },
      {
+      "Id": "383118988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_land-002.wav",
+      "CachePath": "00/{00072FF4-D123-B776-6533-FC13CA80AA0C}.wem"
+     },
+     {
       "Id": "473717917",
       "Language": "SFX",
       "Streaming": "false",
@@ -78,6 +94,22 @@
       "Location": "Memory",
       "ShortName": "octo_dash3.wav",
       "CachePath": "59/{59A0C06B-B0A9-EA2A-DA51-CEEE02A0B3B4}.wem"
+     },
+     {
+      "Id": "940297830",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_land-001.wav",
+      "CachePath": "AF/{AF1D90BF-F516-DC20-981A-7422C3370349}.wem"
+     },
+     {
+      "Id": "1046550350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_land-003.wav",
+      "CachePath": "DB/{DB3553C0-D90F-1B5A-FB5C-9DDF4306162C}.wem"
      }
     ],
     "Events": [
@@ -126,10 +158,33 @@
         "Id": "662339319"
        }
       ]
+     },
+     {
+      "Id": "2483300628",
+      "Name": "octo_land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Octopus\\octo_land",
+      "GUID": "{4608680E-B3CA-42C8-859C-2AF24C00B0A4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1627665",
+      "DurationMax": "1.1627665",
+      "MediaRefs": [
+       {
+        "Id": "183669025"
+       },
+       {
+        "Id": "383118988"
+       },
+       {
+        "Id": "940297830"
+       },
+       {
+        "Id": "1046550350"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{CE38C384-951E-5772-0CED-7E79503E7E3E}"
+  "FileHash": "{2BA4B5A4-0B23-5E92-5181-DD0FDAEF78EE}"
  }
 }

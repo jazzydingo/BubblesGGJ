@@ -151,6 +151,7 @@ MonoBehaviour:
   bubble: 0
   player: 0
   nextSceneIndex: 0
+  openDoor: {fileID: 0}
 --- !u!210 &6528117546033932384
 SortingGroup:
   m_ObjectHideFlags: 0

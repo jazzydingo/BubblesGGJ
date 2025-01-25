@@ -48,7 +48,12 @@ public class Player_Controller : MonoBehaviour
     }
     private void FixedUpdate()
     {
-
+        /*
+        if(!isGrounded())
+        {
+            StartCoroutine(WaitUntilLand());
+        }
+        */
     }
     void Update() //constantly running things
     {
@@ -90,6 +95,7 @@ public class Player_Controller : MonoBehaviour
         {
             inJump = true;
             AkSoundEngine.PostEvent("octo_jump", sfxObj);
+            
         }
         if (Input.GetKeyUp(KeyCode.Space) && myRigidbody.linearVelocityY > 0f)
         {
@@ -97,12 +103,27 @@ public class Player_Controller : MonoBehaviour
             myRigidbody.linearVelocity = new Vector2(myRigidbody.linearVelocityX, myRigidbody.linearVelocityY * 0.5f); 
 
             coyoteTimeCounter = 0f;
-            
+
+            StartCoroutine(WaitUntilLand());
+
         }
         if(isGrounded())
         {
             inJump = false;
         }
+
+        //if on this frame is not grounded, execute coroutine
+        
+    }
+
+
+
+    IEnumerator WaitUntilLand()
+    {
+        yield return new WaitUntil(() => isGrounded());
+
+
+        AkSoundEngine.PostEvent("octo_land", sfxObj);
     }
     private void Dashing() //Dashing
     {
