@@ -41,6 +41,8 @@ public class Player_Controller : MonoBehaviour
     public float dashPower = 24f;
     public float dashTime = 0.2f;
     public float dashCooldown = 1f;
+    
+    public bool wasGrounded;
 
     void Start() //runs on start
     {
@@ -77,6 +79,11 @@ public class Player_Controller : MonoBehaviour
             if (move != 0)
             {
                 animator.SetBool("isRunning", true);
+                if(!isGrounded() && wasGrounded)
+                {
+                    wasGrounded = false; 
+                    StartCoroutine(WaitUntilLand());
+                }
             }
             else
             {
@@ -167,6 +174,7 @@ public class Player_Controller : MonoBehaviour
     }
     public bool isGrounded() //Ground Check
     {
+        wasGrounded = true;
         if (Physics2D.BoxCast(transform.position, boxSize, 0, -transform.up, castDistance, groundLayer))
         {
             return true;
