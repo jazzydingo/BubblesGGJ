@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &251657857666290187
+--- !u!1 &1786880183014804373
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1050442568852388462}
-  - component: {fileID: 5878054118314890631}
-  - component: {fileID: 3842565675076881770}
-  - component: {fileID: 384873006338678028}
+  - component: {fileID: 5136160769419556598}
+  - component: {fileID: 2344809247217818865}
+  - component: {fileID: 4267842861765908207}
+  - component: {fileID: 8591582972281518771}
   m_Layer: 0
-  m_Name: opendoor
-  m_TagString: Door
+  m_Name: RockDoor
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1050442568852388462
+--- !u!4 &5136160769419556598
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251657857666290187}
+  m_GameObject: {fileID: 1786880183014804373}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.403, y: -0.989, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 30.25, y: 0.1777, z: 0}
+  m_LocalScale: {x: 0.37658644, y: 2.7047, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5878054118314890631
+--- !u!212 &2344809247217818865
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251657857666290187}
+  m_GameObject: {fileID: 1786880183014804373}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 04d42f25d159d404e887750ada5903ea, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,24 +78,24 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8719885732543634246, guid: 41cbe25bf280b60488bd708fb05c9285, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0.16981131, g: 0.16981131, b: 0.16981131, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.21, y: 0.2}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3842565675076881770
+--- !u!61 &4267842861765908207
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251657857666290187}
+  m_GameObject: {fileID: 1786880183014804373}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -119,35 +119,32 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.019701004, y: 0.042718828}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.099999994}
-    oldSize: {x: 0.71875, y: 0.78125}
-    newSize: {x: 0.21, y: 0.2}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.91374207, y: 0.085437655}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &384873006338678028
+--- !u!114 &8591582972281518771
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251657857666290187}
+  m_GameObject: {fileID: 1786880183014804373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eeb418fa79b75b24b94eed452cf822ee, type: 3}
+  m_Script: {fileID: 11500000, guid: c6898f8440944454c983100419c5603b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bubble: 0
-  player: 0
-  openDoor: {fileID: 7296655611519912515, guid: 4ae4e584fe147444ab998d3c3120fcd4, type: 3}
-  material: {fileID: 0}
+  lever: {fileID: 0}
