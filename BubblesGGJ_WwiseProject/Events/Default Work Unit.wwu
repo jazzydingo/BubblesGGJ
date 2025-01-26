@@ -107,10 +107,10 @@
 				</Event>
 				<Event Name="sorrow_collect" ID="{4B0636A8-8EDB-4949-95CF-6948C64F1CA2}">
 					<ChildrenList>
-						<Action Name="" ID="{A065E4BF-7C6F-49CC-B0A7-B78E8F912A7D}" ShortID="584492346">
+						<Action Name="" ID="{CEB94CB1-5C81-49D8-AE4C-AFD3D0DEFFDD}" ShortID="217000226">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="sorrow" ID="{39F457ED-C787-4060-89AF-F50BCFDF0C6F}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+									<ObjectRef Name="sorrow1_1" ID="{E34D5559-2BF4-458D-94B2-FA0744E663DA}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

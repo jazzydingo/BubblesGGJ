@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{B4F55C65-AE80-29E3-1D3F-34664FD61FB9}",
+    "Hash": "{030EC401-902F-CDD7-5A76-458E851B7F13}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -112,6 +112,14 @@
       "CachePath": "B4/{B4E71F8D-CCCB-9B68-3FAC-6D37EB30EA92}.wem"
      },
      {
+      "Id": "699276314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sorrow1.1.wav",
+      "CachePath": "15/{1542DBA6-C2A1-45C2-6133-30E800BD9230}.wem"
+     },
+     {
       "Id": "792759907",
       "Language": "SFX",
       "Streaming": "false",
@@ -150,14 +158,6 @@
       "Location": "Memory",
       "ShortName": "octo_land-001.wav",
       "CachePath": "AF/{AF1D90BF-F516-DC20-981A-7422C3370349}.wem"
-     },
-     {
-      "Id": "1029713082",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "sorrow.wav",
-      "CachePath": "83/{830BD874-6AF5-B834-5FDF-72D86BF5DAFB}.wem"
      },
      {
       "Id": "1034230690",
@@ -339,13 +339,13 @@
       "DurationMax": "3.15",
       "MediaRefs": [
        {
-        "Id": "1029713082"
+        "Id": "699276314"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{660CB85E-E0DB-9DC9-B2F5-657A02A9B41F}"
+  "FileHash": "{EB720076-10CD-DF0B-A2C6-A576CC2AA892}"
  }
 }
