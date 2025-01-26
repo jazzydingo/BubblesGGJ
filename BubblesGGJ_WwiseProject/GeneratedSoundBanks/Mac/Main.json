@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{D06D9450-79BA-823E-6EF9-11A231B87428}",
+    "Hash": "{56C9243B-9C70-85A9-433D-A55085404CD8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "fan_works.wav",
-      "CachePath": "98/{988B8583-CBC2-1F40-DEC0-928577567750}.wem"
+      "CachePath": "C4/{C4A35E36-4B8E-4944-C41C-535EB289D442}.wem"
      },
      {
       "Id": "114909943",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sorrow1.1.wav",
-      "CachePath": "15/{1542DBA6-C2A1-45C2-6133-30E800BD9230}.wem"
+      "CachePath": "2B/{2BEEAC46-A777-B6ED-8ECC-588AD983195E}.wem"
      },
      {
       "Id": "792759907",
@@ -368,6 +368,6 @@
     ]
    }
   ],
-  "FileHash": "{C6FE3A1B-DFCD-8989-CBD9-309A060C8136}"
+  "FileHash": "{27528786-8635-2AA1-A67F-BB6B2EAF4ED7}"
  }
 }

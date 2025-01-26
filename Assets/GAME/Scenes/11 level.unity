@@ -4026,6 +4026,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: UIButtons
       objectReference: {fileID: 0}
+    - target: {fileID: 1381262660717757206, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381262660717757206, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381262660717757206, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381262660717757206, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1381262660717757206, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1714232592299821073, guid: 424f496ca10af2047a10061a34244439, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4105,6 +4125,26 @@ PrefabInstance:
     - target: {fileID: 1714232592299821073, guid: 424f496ca10af2047a10061a34244439, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582383838045012451, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582383838045012451, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582383838045012451, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582383838045012451, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829184142307166170, guid: 424f496ca10af2047a10061a34244439, type: 3}
+      propertyPath: m_MaxValue
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

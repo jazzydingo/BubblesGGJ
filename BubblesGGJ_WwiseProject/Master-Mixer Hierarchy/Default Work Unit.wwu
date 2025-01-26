@@ -9,6 +9,45 @@
 							<ObjectRef Name="System" ID="{AFA9A5C1-0403-4049-A999-84904A3C221F}" WorkUnitID="{66E3D0E3-1199-44ED-95D4-1D8A68C00440}"/>
 						</Reference>
 					</ReferenceList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{33D85195-3C47-4D72-9F5A-16C8805DFC24}" ShortID="774736450">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="_MasterVolume" ID="{7C4AAB79-F19E-4DD6-B11F-B69D2F19D427}" WorkUnitID="{7F00C79B-8EBD-4A35-BDA7-6788979C632B}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{800FF19B-0D7D-4D9D-854C-F3654B6DACDB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>9.54242</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -26,6 +26,11 @@ namespace AK
         static const AkUniqueID TRAP_DOOR = 2068868899U;
     } // namespace EVENTS
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID _MASTERVOLUME = 1274570280U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

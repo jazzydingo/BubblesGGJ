@@ -14,7 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	82219155	octo_jump-005	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\06\{060432AE-999C-451E-1516-E1AD674C5962}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_jump\octo_jump-005		196500
 	82667878	octo_dash1	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\77\{77D9925F-3902-8959-7758-78B68ED1FBB8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_dash\octo_dash1		320756
-	97769534	fan_works	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\98\{988B8583-CBC2-1F40-DEC0-928577567750}.wem		\Actor-Mixer Hierarchy\Default Work Unit\fan_works		164300
+	97769534	fan_works	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\C4\{C4A35E36-4B8E-4944-C41C-535EB289D442}.wem		\Actor-Mixer Hierarchy\Default Work Unit\fan_works		164300
 	114909943	trap_door	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\6C\{6C89A411-4F19-E9A4-B59A-C5A45415871E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\trap_door		264960
 	183669025	octo_land-004	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\27\{270118F1-733E-BD6F-A398-0DE8834B9A47}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_land\octo_land-004		205208
 	295866559	octo_jump-004	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\BF\{BFA42D71-757D-05E4-AE5E-771D8C8AA749}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_jump\octo_jump-004		196500
@@ -25,7 +25,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	473717917	octo_jump-002	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\CE\{CE4D6BE1-892A-7CC3-D36D-C8BDBE3A15E4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_jump\octo_jump-002		196500
 	502369979	fan_starts	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\64\{643E3CF0-A99A-E821-9302-03F7280A30BC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\fan_starts		439848
 	662339319	octo_jump-001	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\B4\{B4E71F8D-CCCB-9B68-3FAC-6D37EB30EA92}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_jump\octo_jump-001		196500
-	699276314	sorrow1_1	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\15\{1542DBA6-C2A1-45C2-6133-30E800BD9230}.wem		\Actor-Mixer Hierarchy\Default Work Unit\sorrow1_1		555756
+	699276314	sorrow1_1	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\2B\{2BEEAC46-A777-B6ED-8ECC-588AD983195E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\sorrow1_1		555756
 	792759907	bubble	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\A9\{A97E2C49-EF73-5A71-3AB4-44F8470CF17E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\bubble		295140
 	799411808	door	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\0C\{0C1EC486-9384-2C2F-14C7-2EAD04B27A9D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\door		410528
 	879072999	leaver	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\F6\{F6E5F35C-C0AA-5F85-216F-1E9BCAA499DF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\leaver		264588
