@@ -198,7 +198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fan: 0
   overlap: 0
-  animator: {fileID: 0}
+  animator: {fileID: 4168398885824817589}
   down: 1
   up: 0
   left: 0
@@ -217,7 +217,7 @@ Animator:
   m_GameObject: {fileID: 3448988787279213943}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2ff81983dbf66784da38f4e4f6a20ddc, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2e76bf056ed210d42a68b9fffdb59efc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
