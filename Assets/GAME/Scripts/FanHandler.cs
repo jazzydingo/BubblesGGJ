@@ -5,6 +5,8 @@ public class FanHandler : MonoBehaviour
     public bool fan;
     public bool overlap;
 
+    public Animator animator;
+
     public bool down;
     public bool up;
     public bool left;
@@ -92,6 +94,7 @@ public class FanHandler : MonoBehaviour
                 playingID = AkSoundEngine.PostEvent("fan_starts", sfxObj);
                 AkSoundEngine.PostEvent("fan_starts", sfxObj);
                 soundPlaying = true;
+                animator.SetBool("fanAnim", true);
             }
             else
             {
@@ -105,6 +108,7 @@ public class FanHandler : MonoBehaviour
             AkSoundEngine.StopPlayingID(playingID);
             AkSoundEngine.PostEvent("fan_stops", sfxObj);
             soundPlaying = false;
+            animator.SetBool("fanAnim", false);
         }
         
     }

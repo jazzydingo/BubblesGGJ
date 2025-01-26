@@ -9,6 +9,7 @@ TagManager:
   - Door
   - Lever
   - SFX
+  - Pause
   layers:
   - Default
   - TransparentFX

@@ -49,11 +49,13 @@ public class Player_Controller : MonoBehaviour
     void Start() //runs on start
     {
         myRigidbody = GetComponent<Rigidbody2D>();
+        PauseMenu = GameObject.FindWithTag("Pause");
+        PauseMenu.gameObject.SetActive(false);
     }
     
     void Update() //constantly running things
     {
-        if (PauseMenu.activeInHierarchy) // stops the player from making inputs if the game is paused
+        if (PauseMenu.activeSelf) // stops the player from making inputs if the game is paused
         {
             return;
         }
