@@ -51971,19 +51971,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -17.5
       objectReference: {fileID: 0}
     - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.000015258789
       objectReference: {fileID: 0}
     - target: {fileID: 2859987506746432436, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_IsActive
@@ -52131,23 +52131,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.000015258789
       objectReference: {fileID: 0}
     - target: {fileID: 8091645783827974654, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_IsActive
@@ -52666,7 +52666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6086474527806227814, guid: 375e688f5e4e947438501d5bc124bc3c, type: 3}
       propertyPath: 'dialogue.Array.data[6]'
-      value: Remember, use your arrow keys!
+      value: 'Remember, use your arrow keys!                                                                                                 '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

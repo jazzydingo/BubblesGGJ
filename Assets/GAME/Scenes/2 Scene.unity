@@ -784,6 +784,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000015258789
+      objectReference: {fileID: 0}
     - target: {fileID: 2020431760763730583, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -907,6 +923,26 @@ PrefabInstance:
     - target: {fileID: 5280141533485744150, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000015258789
       objectReference: {fileID: 0}
     - target: {fileID: 7283235993514879074, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.x
@@ -77607,7 +77643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6086474527806227814, guid: 375e688f5e4e947438501d5bc124bc3c, type: 3}
       propertyPath: 'dialogue.Array.data[6]'
-      value: 'The bubbles will never be free!                                            '
+      value: 'The bubbles will never be free!                                                                                                        '
       objectReference: {fileID: 0}
     - target: {fileID: 8351744866254645807, guid: 375e688f5e4e947438501d5bc124bc3c, type: 3}
       propertyPath: m_ReferencePixelsPerUnit
