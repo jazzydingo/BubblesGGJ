@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 85d978dde767290438c539b4a97093ba
+guid: 46aa94af10e3c7a4b92f516eaffa51f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -490242242413125318
-    second: playbutton_0
+      213: 8563721330499657278
+    second: optionsbuttonn_0
   - first:
-      213: -5036864424467756210
-    second: playbutton_1
+      213: 6401180006972677285
+    second: optionsbuttonn_1
   - first:
-      213: 2731128476520854652
-    second: playbutton_2
+      213: 2064509419188394406
+    second: optionsbuttonn_2
   - first:
-      213: -5007550150130498870
-    second: playbutton_3
+      213: -4362278459785281076
+    second: optionsbuttonn_3
+  - first:
+      213: -5723162387689014838
+    second: optionsbuttonn_4
+  - first:
+      213: -6442799093863036185
+    second: optionsbuttonn_5
+  - first:
+      213: 9148156068728516684
+    second: optionsbuttonn_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,28 +114,37 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: playbutton_0
+      name: optionsbuttonn_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 5
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e1ed37d2378d670800000000000000
+      internalID: 8563721330499657278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsbuttonn_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 6
         width: 16
         height: 23
       alignment: 0
@@ -137,19 +155,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a312317274f4239f0800000000000000
-      internalID: -490242242413125318
+      spriteID: 5ac50fa2d4f85d850800000000000000
+      internalID: 6401180006972677285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playbutton_1
+      name: optionsbuttonn_2
       rect:
         serializedVersion: 2
-        x: 14
+        x: 40
         y: 6
-        width: 17
+        width: 20
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -159,19 +177,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4b0ccd0e76791ab0800000000000000
-      internalID: -5036864424467756210
+      spriteID: 6a91c26e06c96ac10800000000000000
+      internalID: 2064509419188394406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playbutton_2
+      name: optionsbuttonn_3
       rect:
         serializedVersion: 2
-        x: 30
+        x: 59
         y: 6
-        width: 19
+        width: 18
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,19 +199,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c74baf611eae6e520800000000000000
-      internalID: 2731128476520854652
+      spriteID: cc109296ad21673c0800000000000000
+      internalID: -4362278459785281076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playbutton_3
+      name: optionsbuttonn_4
       rect:
         serializedVersion: 2
-        x: 47
-        y: 4
-        width: 17
+        x: 78
+        y: 6
+        width: 21
         height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -203,8 +221,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac2848a6bab918ab0800000000000000
-      internalID: -5007550150130498870
+      spriteID: ac97be9812e3390b0800000000000000
+      internalID: -5723162387689014838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsbuttonn_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 5
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eac51b0c549696a0800000000000000
+      internalID: -6442799093863036185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: optionsbuttonn_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 5
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40b56ab977c4fe70800000000000000
+      internalID: 9148156068728516684
       vertices: []
       indices: 
       edges: []
@@ -223,10 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      playbutton_0: -490242242413125318
-      playbutton_1: -5036864424467756210
-      playbutton_2: 2731128476520854652
-      playbutton_3: -5007550150130498870
+      optionsbuttonn_0: 8563721330499657278
+      optionsbuttonn_1: 6401180006972677285
+      optionsbuttonn_2: 2064509419188394406
+      optionsbuttonn_3: -4362278459785281076
+      optionsbuttonn_4: -5723162387689014838
+      optionsbuttonn_5: -6442799093863036185
+      optionsbuttonn_6: 9148156068728516684
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
