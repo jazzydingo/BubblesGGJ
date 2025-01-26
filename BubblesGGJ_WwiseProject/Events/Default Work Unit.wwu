@@ -171,6 +171,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_menu_music" ID="{84FD67B6-A2A0-4B72-BCD3-816226A84D03}">
+					<ChildrenList>
+						<Action Name="" ID="{A48CA3DA-BCBC-43D9-BB5E-F8C566C46AC0}" ShortID="941164694">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuLoop" ID="{4240D273-7CD6-4892-AF94-5853E355F06B}" WorkUnitID="{D1198347-450C-4F26-A30C-1BA4E86D7F35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

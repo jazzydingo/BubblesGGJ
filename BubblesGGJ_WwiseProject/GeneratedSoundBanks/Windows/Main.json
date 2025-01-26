@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{5FE3985E-ADCD-259D-5E77-6E09CCAA5089}",
+    "Hash": "{4E424BCE-EBB0-4358-228C-41240C43CE16}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "blobfish.wav",
-      "CachePath": "CF/{CFDE7A73-FB79-07FF-D3A5-8CC6C6BD1A22}.wem"
+      "CachePath": "BA/{BA92D386-924B-C980-AA91-BB397270CCBD}.wem"
      },
      {
       "Id": "435543624",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "crabby.wav",
-      "CachePath": "F2/{F203740E-B849-44A8-7235-6F2EDD664D5E}.wem"
+      "CachePath": "2B/{2B016222-5056-0ABC-8279-F58604F05CC4}.wem"
      },
      {
       "Id": "662339319",
@@ -158,6 +158,14 @@
       "Location": "Memory",
       "ShortName": "door.wav",
       "CachePath": "52/{52CA6757-4FCB-2AFC-87BE-C2BEF2D7ECE3}.wem"
+     },
+     {
+      "Id": "863804546",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_opening.wav",
+      "CachePath": "98/{9896F6D3-EA6B-2F90-59F7-5320A9D22811}.wem"
      },
      {
       "Id": "879072999",
@@ -198,6 +206,14 @@
       "Location": "Memory",
       "ShortName": "octo_land-003.wav",
       "CachePath": "B2/{B2B3DFBA-2C36-BCD5-911E-68D2C2DA3222}.wem"
+     },
+     {
+      "Id": "1059443094",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "octo_menu_music.wav",
+      "CachePath": "3A/{3A71C299-EA9C-47C8-173A-FD4D8DF17B87}.wem"
      }
     ],
     "Events": [
@@ -370,6 +386,18 @@
       ]
      },
      {
+      "Id": "2228153899",
+      "Name": "play_menu_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_menu_music",
+      "GUID": "{84FD67B6-A2A0-4B72-BCD3-816226A84D03}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1059443094"
+       }
+      ]
+     },
+     {
       "Id": "2932040671",
       "Name": "play_music",
       "ObjectPath": "\\Events\\Default Work Unit\\play_music",
@@ -378,6 +406,20 @@
       "MediaRefs": [
        {
         "Id": "1034230690"
+       }
+      ]
+     },
+     {
+      "Id": "1409694154",
+      "Name": "play_octo_opening",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_octo_opening",
+      "GUID": "{74886A47-C9FD-405E-A080-1D8318D99BED}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.5",
+      "DurationMax": "4.5",
+      "MediaRefs": [
+       {
+        "Id": "863804546"
        }
       ]
      },
@@ -412,6 +454,6 @@
     ]
    }
   ],
-  "FileHash": "{B1473A59-5EF6-FE6C-7D2B-424DE9B372BA}"
+  "FileHash": "{A396B25A-0E47-FAC3-CBB7-DB5A633682B7}"
  }
 }

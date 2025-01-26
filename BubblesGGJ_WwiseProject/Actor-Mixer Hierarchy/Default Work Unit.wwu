@@ -576,7 +576,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
@@ -605,7 +605,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
@@ -622,6 +622,35 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="crabby" ID="{40A48D75-BE9F-4D13-8264-CE38D9C58A82}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="octo_opening" ID="{ED740FB5-C6FE-4E6D-8960-D0F5707C409B}" ShortID="320272171">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="octo_opening" ID="{38236E91-10E6-41AB-B14B-271027F3D730}">
+							<Language>SFX</Language>
+							<AudioFile>octo_opening.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="863804546"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="octo_opening" ID="{38236E91-10E6-41AB-B14B-271027F3D730}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
