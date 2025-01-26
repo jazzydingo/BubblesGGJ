@@ -5,6 +5,24 @@ public class PauseMenu : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
 
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(pauseMenu.activeSelf)
+            {
+                pauseMenu.SetActive(false);
+                Time.timeScale = 1f;
+
+            }
+            else if(!pauseMenu.activeSelf)
+            {
+                pauseMenu.SetActive(true);
+                Time.timeScale = 0f;
+            }
+        }
+        
+    }
     public void PauseGame()
     {
         pauseMenu.SetActive(true);
