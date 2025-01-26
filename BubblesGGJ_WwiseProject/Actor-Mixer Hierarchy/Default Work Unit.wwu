@@ -566,6 +566,64 @@
 						<ActiveSource Name="trap_door" ID="{7BF65848-DE47-41E2-9F44-A64E1A7C71A2}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="blobfish" ID="{2995F29E-517B-4081-8443-B022D7C33A70}" ShortID="645640599">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="blobfish" ID="{809BBE49-E3F0-4C70-9BEF-A643B2D62568}">
+							<Language>SFX</Language>
+							<AudioFile>blobfish.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="418109270"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="blobfish" ID="{809BBE49-E3F0-4C70-9BEF-A643B2D62568}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="crabby" ID="{BEB8E515-1F95-4A93-9F9E-C47D10C5D834}" ShortID="195959429">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="crabby" ID="{40A48D75-BE9F-4D13-8264-CE38D9C58A82}">
+							<Language>SFX</Language>
+							<AudioFile>crabby.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="560839662"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="crabby" ID="{40A48D75-BE9F-4D13-8264-CE38D9C58A82}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

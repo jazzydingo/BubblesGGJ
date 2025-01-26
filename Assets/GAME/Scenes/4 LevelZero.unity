@@ -52551,6 +52551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3035547067332169683, guid: 375e688f5e4e947438501d5bc124bc3c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5276980156061030471, guid: 375e688f5e4e947438501d5bc124bc3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -52630,6 +52634,10 @@ PrefabInstance:
     - target: {fileID: 5276980156061030471, guid: 375e688f5e4e947438501d5bc124bc3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6086474527806227814, guid: 375e688f5e4e947438501d5bc124bc3c, type: 3}
+      propertyPath: voice
+      value: crabby
       objectReference: {fileID: 0}
     - target: {fileID: 6086474527806227814, guid: 375e688f5e4e947438501d5bc124bc3c, type: 3}
       propertyPath: characterName

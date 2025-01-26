@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{93BEA03F-C24A-FA36-B08F-76D6BE2608D2}",
+    "Hash": "{5FE3985E-ADCD-259D-5E77-6E09CCAA5089}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -88,6 +88,14 @@
       "CachePath": "CE/{CE43AD00-9257-1597-3F2A-AC4C9AA48B01}.wem"
      },
      {
+      "Id": "418109270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "blobfish.wav",
+      "CachePath": "CF/{CFDE7A73-FB79-07FF-D3A5-8CC6C6BD1A22}.wem"
+     },
+     {
       "Id": "435543624",
       "Language": "SFX",
       "Streaming": "false",
@@ -110,6 +118,14 @@
       "Location": "Memory",
       "ShortName": "fan_starts.wav",
       "CachePath": "E4/{E43A7699-E634-B73A-16BB-90525559EEBD}.wem"
+     },
+     {
+      "Id": "560839662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "crabby.wav",
+      "CachePath": "F2/{F203740E-B849-44A8-7235-6F2EDD664D5E}.wem"
      },
      {
       "Id": "662339319",
@@ -186,6 +202,20 @@
     ],
     "Events": [
      {
+      "Id": "1457296278",
+      "Name": "blobfish",
+      "ObjectPath": "\\Events\\Default Work Unit\\blobfish",
+      "GUID": "{DE88892D-3753-4FCE-BEAE-2B6AD2C846AE}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.73",
+      "DurationMax": "2.73",
+      "MediaRefs": [
+       {
+        "Id": "418109270"
+       }
+      ]
+     },
+     {
       "Id": "1607715391",
       "Name": "bubble_spawn",
       "ObjectPath": "\\Events\\Default Work Unit\\bubble_spawn",
@@ -196,6 +226,20 @@
       "MediaRefs": [
        {
         "Id": "792759907"
+       }
+      ]
+     },
+     {
+      "Id": "1466630640",
+      "Name": "crabby",
+      "ObjectPath": "\\Events\\Default Work Unit\\crabby",
+      "GUID": "{71FEC0DC-FBE3-43CF-BC0A-7BDC71D971C0}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.2851021",
+      "DurationMax": "2.2851021",
+      "MediaRefs": [
+       {
+        "Id": "560839662"
        }
       ]
      },
@@ -368,6 +412,6 @@
     ]
    }
   ],
-  "FileHash": "{DD5BA659-0E42-C8BD-F54B-B1E8A713BF35}"
+  "FileHash": "{8592543B-35C5-7969-EFE6-5831B3755BDD}"
  }
 }

@@ -18,6 +18,10 @@ public class DialogueManager : MonoBehaviour
     public bool next;
 
     public Canvas dialogueCanvas;
+
+    public string voice = "";
+
+    public GameObject sfxObj;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -26,9 +30,11 @@ public class DialogueManager : MonoBehaviour
         index = 0;
         nameTag.text = characterName;
         end = false;
-        
+
+        sfxObj = GameObject.FindWithTag("SFX");
+
         //StartCoroutine(TypeLine());
-        
+        AkSoundEngine.PostEvent(voice, sfxObj);
     }
 
     void Update()

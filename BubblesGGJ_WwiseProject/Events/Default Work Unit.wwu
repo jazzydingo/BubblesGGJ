@@ -149,6 +149,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="blobfish" ID="{DE88892D-3753-4FCE-BEAE-2B6AD2C846AE}">
+					<ChildrenList>
+						<Action Name="" ID="{BED50570-2007-44BB-B3E2-DE4F3BB1E05E}" ShortID="896491964">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="blobfish" ID="{2995F29E-517B-4081-8443-B022D7C33A70}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="crabby" ID="{71FEC0DC-FBE3-43CF-BC0A-7BDC71D971C0}">
+					<ChildrenList>
+						<Action Name="" ID="{555A57F6-3207-46C3-A526-508F1714D5A3}" ShortID="19197083">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="crabby" ID="{BEB8E515-1F95-4A93-9F9E-C47D10C5D834}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
