@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c21469e33fa3b3418ea3638182eee65e
     GuidInternal: 
-    m_lastTime: -8584637656338823262
+    m_lastTime: -8584637554393937076
     List:
     - name: Main
       guid: ae3f75cb80fbdd4489b28258a11c146b
@@ -94,8 +94,82 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3eb30d4ca6338042aab81d1120b1c7d7
     GuidInternal: 
-    m_lastTime: -8584637656347044614
+    m_lastTime: -8584637554393957060
     List:
+    - name: fan
+      guid: d3dc6a96da0aff4a9a570539363095cb
+      id: 1183803264
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: fan
+        ObjectType: 4
+        guid: d3dc6a96da0aff4a9a570539363095cb
+      Path: Events\Default Work Unit\fan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: fan_starts
+      guid: 8626eba4c56dae43923720319ed51612
+      id: 1231114980
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: fan
+        ObjectType: 4
+        guid: d3dc6a96da0aff4a9a570539363095cb
+      - ElementName: fan_starts
+        ObjectType: 3
+        guid: 8626eba4c56dae43923720319ed51612
+      Path: Events\Default Work Unit\fan\fan_starts
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: fan_stops
+      guid: e307ae8924af00458bc7d2ab62e272d0
+      id: 4174527246
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: fan
+        ObjectType: 4
+        guid: d3dc6a96da0aff4a9a570539363095cb
+      - ElementName: fan_stops
+        ObjectType: 3
+        guid: e307ae8924af00458bc7d2ab62e272d0
+      Path: Events\Default Work Unit\fan\fan_stops
+      maxAttenuation: 0
+      maxDuration: 5.00746
+      minDuration: 5.00746
+    - name: lever
+      guid: d18791ddf577d040b695fce077fbad1d
+      id: 2782712987
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: lever
+        ObjectType: 3
+        guid: d18791ddf577d040b695fce077fbad1d
+      Path: Events\Default Work Unit\lever
+      maxAttenuation: 0
+      maxDuration: 1.4993877
+      minDuration: 1.4993877
     - name: octo_dash
       guid: cfdf96410620c948933e013e6f696cba
       id: 443360503
@@ -247,7 +321,7 @@ MonoBehaviour:
     m_lastTime: -8584638225460979861
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b00000014000000
+  ExpandedWaapiItemIds: 0500000006000000080000000a0000000b0000001400000016000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

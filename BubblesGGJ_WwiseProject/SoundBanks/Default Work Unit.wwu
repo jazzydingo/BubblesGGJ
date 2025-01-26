@@ -7,6 +7,8 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="play_music" ID="{B72B7697-88FE-4086-9FBD-29630EE8CF96}" WorkUnitID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Octopus" ID="{34853A25-709A-4096-A45D-259BF36033DD}" WorkUnitID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="lever" ID="{DD9187D1-77F5-40D0-B695-FCE077FBAD1D}" WorkUnitID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="fan" ID="{966ADCD3-0ADA-4AFF-9A57-0539363095CB}" WorkUnitID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

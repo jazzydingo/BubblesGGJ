@@ -51,6 +51,60 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="fan" ID="{966ADCD3-0ADA-4AFF-9A57-0539363095CB}" ShortID="678339588">
+					<ChildrenList>
+						<Event Name="fan_starts" ID="{A4EB2686-6DC5-43AE-9237-20319ED51612}">
+							<ChildrenList>
+								<Action Name="" ID="{5690955E-1D20-4A3F-9D72-3DC77015A2E1}" ShortID="268536240">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fan_starts" ID="{59532236-F07C-4020-B2DF-BFD2E9F74AF1}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C561A5F8-CC53-4410-A73A-EBD447EF9254}" ShortID="88012882">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fan_works" ID="{BEA78E21-6929-4D37-8479-B66A429CBCC5}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="fan_stops" ID="{89AE07E3-AF24-4500-8BC7-D2AB62E272D0}">
+							<ChildrenList>
+								<Action Name="" ID="{C9ED25E3-0B78-49C5-8EE8-4D6CB9230CA4}" ShortID="641301894">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fan_stops" ID="{22398332-E7AB-4F95-A581-A27D8EFEFD6F}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{733A1E1A-675E-4E57-A1A3-F2C52458DB8E}" ShortID="353852731">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fan_works" ID="{BEA78E21-6929-4D37-8479-B66A429CBCC5}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="lever" ID="{DD9187D1-77F5-40D0-B695-FCE077FBAD1D}">
+					<ChildrenList>
+						<Action Name="" ID="{5520C5F3-C4FD-4AEC-9B9F-05B4B2750EC3}" ShortID="838837680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="leaver" ID="{63B4BB5D-CDC6-44BF-BAE2-A0204F57F483}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

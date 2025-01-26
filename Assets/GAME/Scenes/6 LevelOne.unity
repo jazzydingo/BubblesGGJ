@@ -1625,6 +1625,10 @@ PrefabInstance:
       value: lever
       objectReference: {fileID: 0}
     - target: {fileID: 5295355645226738030, guid: 9b814caf4f0e8244d9982e32e3ce12f9, type: 3}
+      propertyPath: sfxObj
+      value: 
+      objectReference: {fileID: 996849868}
+    - target: {fileID: 5295355645226738030, guid: 9b814caf4f0e8244d9982e32e3ce12f9, type: 3}
       propertyPath: objectToControl
       value: 
       objectReference: {fileID: 308588230}
@@ -1804,6 +1808,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5542572059054020371, guid: fcfee080da4c5004c8e6c89a22020af4, type: 3}
+      propertyPath: sfxObj
+      value: 
+      objectReference: {fileID: 996849868}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

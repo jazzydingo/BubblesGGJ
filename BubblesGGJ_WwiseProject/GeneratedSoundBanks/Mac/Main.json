@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{2B1AD9FE-B305-AA86-7930-9AC08018C74E}",
+    "Hash": "{02B5BF4C-2980-3696-AC82-5CB7FEB6A944}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "octo_dash1.wav",
       "CachePath": "77/{77D9925F-3902-8959-7758-78B68ED1FBB8}.wem"
+     },
+     {
+      "Id": "97769534",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan_works.wav",
+      "CachePath": "98/{988B8583-CBC2-1F40-DEC0-928577567750}.wem"
      },
      {
       "Id": "183669025",
@@ -72,6 +80,14 @@
       "CachePath": "00/{00072FF4-D123-B776-6533-FC13CA80AA0C}.wem"
      },
      {
+      "Id": "435543624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan_stops.wav",
+      "CachePath": "AC/{AC986069-203B-3A27-BC26-27F1C2CCC15F}.wem"
+     },
+     {
       "Id": "473717917",
       "Language": "SFX",
       "Streaming": "false",
@@ -80,12 +96,28 @@
       "CachePath": "CE/{CE4D6BE1-892A-7CC3-D36D-C8BDBE3A15E4}.wem"
      },
      {
+      "Id": "502369979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fan_starts.wav",
+      "CachePath": "64/{643E3CF0-A99A-E821-9302-03F7280A30BC}.wem"
+     },
+     {
       "Id": "662339319",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_jump-001.wav",
       "CachePath": "B4/{B4E71F8D-CCCB-9B68-3FAC-6D37EB30EA92}.wem"
+     },
+     {
+      "Id": "879072999",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "lever.wav",
+      "CachePath": "F6/{F6E5F35C-C0AA-5F85-216F-1E9BCAA499DF}.wem"
      },
      {
       "Id": "880605622",
@@ -121,6 +153,49 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1231114980",
+      "Name": "fan_starts",
+      "ObjectPath": "\\Events\\Default Work Unit\\fan\\fan_starts",
+      "GUID": "{A4EB2686-6DC5-43AE-9237-20319ED51612}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "97769534"
+       },
+       {
+        "Id": "502369979"
+       }
+      ]
+     },
+     {
+      "Id": "4174527246",
+      "Name": "fan_stops",
+      "ObjectPath": "\\Events\\Default Work Unit\\fan\\fan_stops",
+      "GUID": "{89AE07E3-AF24-4500-8BC7-D2AB62E272D0}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.00746",
+      "DurationMax": "5.00746",
+      "MediaRefs": [
+       {
+        "Id": "435543624"
+       }
+      ]
+     },
+     {
+      "Id": "2782712987",
+      "Name": "lever",
+      "ObjectPath": "\\Events\\Default Work Unit\\lever",
+      "GUID": "{DD9187D1-77F5-40D0-B695-FCE077FBAD1D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4993877",
+      "DurationMax": "1.4993877",
+      "MediaRefs": [
+       {
+        "Id": "879072999"
+       }
+      ]
+     },
      {
       "Id": "443360503",
       "Name": "octo_dash",
@@ -205,6 +280,6 @@
     ]
    }
   ],
-  "FileHash": "{DBFCB70C-0DE8-6351-7737-E96943E565A7}"
+  "FileHash": "{3344558F-C4BC-527F-5FC2-BA268A4BC79D}"
  }
 }

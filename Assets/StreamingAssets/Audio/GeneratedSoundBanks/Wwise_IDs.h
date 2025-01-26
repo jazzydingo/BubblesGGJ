@@ -13,6 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FAN_STARTS = 1231114980U;
+        static const AkUniqueID FAN_STOPS = 4174527246U;
+        static const AkUniqueID LEVER = 2782712987U;
         static const AkUniqueID OCTO_DASH = 443360503U;
         static const AkUniqueID OCTO_JUMP = 551071615U;
         static const AkUniqueID OCTO_LAND = 2483300628U;

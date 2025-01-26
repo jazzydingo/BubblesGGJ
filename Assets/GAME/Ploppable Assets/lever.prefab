@@ -138,3 +138,4 @@ MonoBehaviour:
   leverObj: {fileID: 997117764019538886}
   objectToControl: {fileID: 0}
   fanHandler: {fileID: 0}
+  sfxObj: {fileID: 0}

@@ -8,6 +8,7 @@ TagManager:
   - Sorrow
   - Door
   - Lever
+  - SFX
   layers:
   - Default
   - TransparentFX

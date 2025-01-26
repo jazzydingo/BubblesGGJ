@@ -18,11 +18,14 @@ public class LeverHandler : MonoBehaviour
 
     private Material material;
 
+    public GameObject sfxObj;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         lever = false;
         material = this.gameObject.GetComponent<SpriteRenderer>().material;
+        sfxObj = GameObject.FindWithTag("SFX");
     }
 
     // Update is called once per frame
@@ -54,6 +57,7 @@ public class LeverHandler : MonoBehaviour
 
     void FlipLever()
     {
+        AkSoundEngine.PostEvent("lever", sfxObj);
         if(!lever)
         {
             lever = true;

@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GGJ2025WoodAssetSheet_0: 331037385144195720
+      GGJ2025WoodAssetSheet_1: -2355558856742875578
+      GGJ2025WoodAssetSheet_2: 9102389609930198728
+      GGJ2025WoodAssetSheet_3: -5525886257138457237
+      GGJ2025WoodAssetSheet_4: -4750850933663207162
+      GGJ2025WoodAssetSheet_5: 2623040894834151976
+      GGJ2025WoodAssetSheet_6: 6150576207163562618
+      GGJ2025WoodAssetSheet_7: 5293191286641531543
+      GGJ2025WoodAssetSheet_8: -469853460262553739
+      GGJ2025WoodAssetSheet_9: 4501775916841011036
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

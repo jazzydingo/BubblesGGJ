@@ -317,6 +317,110 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="leaver" ID="{63B4BB5D-CDC6-44BF-BAE2-A0204F57F483}" ShortID="842638108">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="lever" ID="{E2FB1349-6586-4D29-B07D-6B2A05B9D041}">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-6.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>lever.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="879072999"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="lever" ID="{E2FB1349-6586-4D29-B07D-6B2A05B9D041}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="fan_works" ID="{BEA78E21-6929-4D37-8479-B66A429CBCC5}" ShortID="567510224">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fan_works" ID="{C9EE1F58-2CFF-45AB-BC0F-F50A3898D52E}">
+							<PropertyList>
+								<Property Name="CrossfadeShape" Type="int16" Value="0"/>
+								<Property Name="FadeInShape" Type="int16" Value="2"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.930869748290021"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>fan_works.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="97769534"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fan_works" ID="{C9EE1F58-2CFF-45AB-BC0F-F50A3898D52E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="fan_starts" ID="{59532236-F07C-4020-B2DF-BFD2E9F74AF1}" ShortID="704727608">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fan_starts" ID="{054B6E69-8003-4021-9F1B-3DDB31ABC344}">
+							<Language>SFX</Language>
+							<AudioFile>fan_starts.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="502369979"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fan_starts" ID="{054B6E69-8003-4021-9F1B-3DDB31ABC344}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="fan_stops" ID="{22398332-E7AB-4F95-A581-A27D8EFEFD6F}" ShortID="491249841">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fan_stops" ID="{05DB4311-7C15-443C-AF86-D2BD1C7AF01A}">
+							<Language>SFX</Language>
+							<AudioFile>fan_stops.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="435543624"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fan_stops" ID="{05DB4311-7C15-443C-AF86-D2BD1C7AF01A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
