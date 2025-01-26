@@ -2,8 +2,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	156682622	sorrow_collect			\Default Work Unit\sorrow_collect	
 	443360503	octo_dash			\Default Work Unit\Octopus\octo_dash	
 	551071615	octo_jump			\Default Work Unit\Octopus\octo_jump	
+	935261453	octo_opening			\Default Work Unit\octo_opening	
 	1231114980	fan_starts			\Default Work Unit\fan\fan_starts	
-	1409694154	play_octo_opening			\Default Work Unit\play_octo_opening	
 	1457296278	blobfish			\Default Work Unit\blobfish	
 	1466630640	crabby			\Default Work Unit\crabby	
 	1607715391	bubble_spawn			\Default Work Unit\bubble_spawn	

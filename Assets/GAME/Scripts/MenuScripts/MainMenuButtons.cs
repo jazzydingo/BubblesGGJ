@@ -16,7 +16,7 @@ public class MainMenuButtons : MonoBehaviour
     {
         //play sound
         Destroy(MenuMusic);
-        AkSoundEngine.PostEvent("play_octo_opening", sfxObj);
+        AkSoundEngine.PostEvent("octo_opening", sfxObj);
         //wait until sound end
         StartCoroutine(WaitForSound());
 

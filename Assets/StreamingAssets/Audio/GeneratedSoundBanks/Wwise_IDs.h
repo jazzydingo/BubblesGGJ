@@ -23,9 +23,9 @@ namespace AK
         static const AkUniqueID OCTO_DASH = 443360503U;
         static const AkUniqueID OCTO_JUMP = 551071615U;
         static const AkUniqueID OCTO_LAND = 2483300628U;
+        static const AkUniqueID OCTO_OPENING = 935261453U;
         static const AkUniqueID PLAY_MENU_MUSIC = 2228153899U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
-        static const AkUniqueID PLAY_OCTO_OPENING = 1409694154U;
         static const AkUniqueID SORROW_COLLECT = 156682622U;
         static const AkUniqueID TRAP_DOOR = 2068868899U;
     } // namespace EVENTS

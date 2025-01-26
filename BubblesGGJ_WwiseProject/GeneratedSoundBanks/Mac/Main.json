@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{FF9C1F3F-F18C-EDD6-2FCC-539BB62E2401}",
+    "Hash": "{1433934F-F9DE-FCBE-D915-22560B909E62}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -386,6 +386,20 @@
       ]
      },
      {
+      "Id": "935261453",
+      "Name": "octo_opening",
+      "ObjectPath": "\\Events\\Default Work Unit\\octo_opening",
+      "GUID": "{49482940-EF78-4E2D-8286-6DD993BB1DF1}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.5",
+      "DurationMax": "4.5",
+      "MediaRefs": [
+       {
+        "Id": "863804546"
+       }
+      ]
+     },
+     {
       "Id": "2228153899",
       "Name": "play_menu_music",
       "ObjectPath": "\\Events\\Default Work Unit\\play_menu_music",
@@ -406,20 +420,6 @@
       "MediaRefs": [
        {
         "Id": "1034230690"
-       }
-      ]
-     },
-     {
-      "Id": "1409694154",
-      "Name": "play_octo_opening",
-      "ObjectPath": "\\Events\\Default Work Unit\\play_octo_opening",
-      "GUID": "{74886A47-C9FD-405E-A080-1D8318D99BED}",
-      "DurationType": "OneShot",
-      "DurationMin": "4.5",
-      "DurationMax": "4.5",
-      "MediaRefs": [
-       {
-        "Id": "863804546"
        }
       ]
      },
@@ -454,6 +454,6 @@
     ]
    }
   ],
-  "FileHash": "{68FE2404-B5F6-2097-CADB-F39F54CA8587}"
+  "FileHash": "{FAEDE6FD-70E1-4189-4FB1-FD7AECAAE19E}"
  }
 }

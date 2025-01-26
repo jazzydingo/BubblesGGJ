@@ -182,6 +182,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="octo_opening" ID="{49482940-EF78-4E2D-8286-6DD993BB1DF1}">
+					<ChildrenList>
+						<Action Name="" ID="{82326682-3169-458E-A0E1-314E37C1DF9E}" ShortID="492834378">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="octo_opening" ID="{ED740FB5-C6FE-4E6D-8960-D0F5707C409B}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9EB0A7C7-FE37-4183-8205-45D2E02EFAAF}" ShortID="225746553">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MenuLoop" ID="{4240D273-7CD6-4892-AF94-5853E355F06B}" WorkUnitID="{D1198347-450C-4F26-A30C-1BA4E86D7F35}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

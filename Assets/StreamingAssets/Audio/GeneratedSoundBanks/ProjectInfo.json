@@ -15,6 +15,13 @@
     "Path": "../../../../BubblesGGJ_WwiseProject/GeneratedSoundBanks/Mac"
    },
    {
+    "Name": "Web",
+    "GUID": "{2685B1D4-F40D-4EB0-AC32-A2A06FB3A5FD}",
+    "BasePlatform": "Web",
+    "BasePlatformGUID": "{639AD233-23F2-4C0F-9127-79F44C15E1DA}",
+    "Path": "../../../../BubblesGGJ_WwiseProject/GeneratedSoundBanks/Web"
+   },
+   {
     "Name": "Windows",
     "GUID": "{AFAB39F6-987D-47EA-A99E-5B51DEE11E40}",
     "BasePlatform": "Windows",
@@ -31,6 +38,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{97AD5BD2-5501-122A-02D4-571F0E7CA2F9}"
+  "FileHash": "{C56B46AF-16FD-C7D9-02DA-BEB832055E84}"
  }
 }
