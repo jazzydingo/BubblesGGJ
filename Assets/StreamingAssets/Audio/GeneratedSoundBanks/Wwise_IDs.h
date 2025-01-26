@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID OCTO_JUMP = 551071615U;
         static const AkUniqueID OCTO_LAND = 2483300628U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID SORROW_COLLECT = 156682622U;
     } // namespace EVENTS
 
     namespace BANKS

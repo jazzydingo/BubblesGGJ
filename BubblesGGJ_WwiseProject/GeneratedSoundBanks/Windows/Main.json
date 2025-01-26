@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{02B5BF4C-2980-3696-AC82-5CB7FEB6A944}",
+    "Hash": "{9D1E654E-1330-CD7E-BE6D-C5C9A2C8CE1B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -134,6 +134,14 @@
       "Location": "Memory",
       "ShortName": "octo_land-001.wav",
       "CachePath": "AF/{AF1D90BF-F516-DC20-981A-7422C3370349}.wem"
+     },
+     {
+      "Id": "1029713082",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sorrow.wav",
+      "CachePath": "83/{830BD874-6AF5-B834-5FDF-72D86BF5DAFB}.wem"
      },
      {
       "Id": "1034230690",
@@ -276,10 +284,24 @@
         "Id": "1034230690"
        }
       ]
+     },
+     {
+      "Id": "156682622",
+      "Name": "sorrow_collect",
+      "ObjectPath": "\\Events\\Default Work Unit\\sorrow_collect",
+      "GUID": "{4B0636A8-8EDB-4949-95CF-6948C64F1CA2}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.15",
+      "DurationMax": "3.15",
+      "MediaRefs": [
+       {
+        "Id": "1029713082"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{E4812141-EAF7-F0AB-A04B-9891885FFCD9}"
+  "FileHash": "{5DB368FD-3CE8-A261-E0F3-B2F97FE6A02B}"
  }
 }
