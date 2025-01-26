@@ -105,6 +105,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="sorrow_collect" ID="{4B0636A8-8EDB-4949-95CF-6948C64F1CA2}">
+					<ChildrenList>
+						<Action Name="" ID="{A065E4BF-7C6F-49CC-B0A7-B78E8F912A7D}" ShortID="584492346">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sorrow" ID="{39F457ED-C787-4060-89AF-F50BCFDF0C6F}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="door" ID="{61B85708-47DA-4CA8-A162-74833F85E78A}">
+					<ChildrenList>
+						<Action Name="" ID="{A2148406-187A-4A81-BA01-45501EDE24EE}" ShortID="784213539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="door" ID="{5316323B-09B6-42AB-8E50-D22BCAF7442B}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

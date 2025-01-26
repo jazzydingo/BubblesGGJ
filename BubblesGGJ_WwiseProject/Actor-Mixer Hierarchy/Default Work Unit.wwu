@@ -349,6 +349,11 @@
 				<Sound Name="fan_works" ID="{BEA78E21-6929-4D37-8479-B66A429CBCC5}" ShortID="567510224">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -378,6 +383,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="fan_starts" ID="{59532236-F07C-4020-B2DF-BFD2E9F74AF1}" ShortID="704727608">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
@@ -400,6 +412,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="fan_stops" ID="{22398332-E7AB-4F95-A581-A27D8EFEFD6F}" ShortID="491249841">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
@@ -419,6 +438,68 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="fan_stops" ID="{05DB4311-7C15-443C-AF86-D2BD1C7AF01A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sorrow" ID="{39F457ED-C787-4060-89AF-F50BCFDF0C6F}" ShortID="711487849">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-21</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sorrow" ID="{03007463-7601-4DCD-ABE1-0D04CE14165C}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.15820614193535"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>sorrow.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1029713082"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sorrow" ID="{03007463-7601-4DCD-ABE1-0D04CE14165C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="door" ID="{5316323B-09B6-42AB-8E50-D22BCAF7442B}" ShortID="881066048">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{54C764D7-88DD-44D1-A96B-FE3D818965A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8A8C66C-8EBA-4EEA-82AF-058EC558A85B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="door" ID="{488540C6-6181-4175-8FF2-9325346E3D63}">
+							<Language>SFX</Language>
+							<AudioFile>door.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="799411808"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="door" ID="{488540C6-6181-4175-8FF2-9325346E3D63}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

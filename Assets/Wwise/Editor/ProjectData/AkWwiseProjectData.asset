@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c21469e33fa3b3418ea3638182eee65e
     GuidInternal: 
-    m_lastTime: -8584637542480604551
+    m_lastTime: -8584637482728404975
     List:
     - name: Main
       guid: ae3f75cb80fbdd4489b28258a11c146b
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3eb30d4ca6338042aab81d1120b1c7d7
     GuidInternal: 
-    m_lastTime: -8584637542489825643
+    m_lastTime: -8584637482728414943
     List:
+    - name: door
+      guid: 0857b861da47a84ca16274833f85e78a
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: door
+        ObjectType: 3
+        guid: 0857b861da47a84ca16274833f85e78a
+      Path: Events\Default Work Unit\door
+      maxAttenuation: 0
+      maxDuration: 2.3267121
+      minDuration: 2.3267121
     - name: fan
       guid: d3dc6a96da0aff4a9a570539363095cb
       id: 1183803264
@@ -264,6 +281,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: sorrow_collect
+      guid: a836064bdb8e494995cf6948c64f1ca2
+      id: 156682622
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: sorrow_collect
+        ObjectType: 3
+        guid: a836064bdb8e494995cf6948c64f1ca2
+      Path: Events\Default Work Unit\sorrow_collect
+      maxAttenuation: 0
+      maxDuration: 3.15
+      minDuration: 3.15
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
