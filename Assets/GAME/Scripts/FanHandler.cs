@@ -13,6 +13,9 @@ public class FanHandler : MonoBehaviour
     public bool right;
     public GameObject bubble;
 
+    public GameObject fanSFX;
+    public GameObject fanPrefab;
+
     public GameObject sfxObj;
 
     public ParticleSystem bubbles;
@@ -91,8 +94,9 @@ public class FanHandler : MonoBehaviour
         {
             if(!soundPlaying)
             {
-                playingID = AkSoundEngine.PostEvent("fan_starts", sfxObj);
-                AkSoundEngine.PostEvent("fan_starts", sfxObj);
+                //playingID = AkSoundEngine.PostEvent("fan_starts", sfxObj);
+                //AkSoundEngine.PostEvent("fan_starts", sfxObj);
+                GameObject fanSFX = Instantiate(fanPrefab);
                 soundPlaying = true;
                 animator.SetBool("fanAnim", true);
             }
@@ -105,7 +109,8 @@ public class FanHandler : MonoBehaviour
         }
         else
         {
-            AkSoundEngine.StopPlayingID(playingID);
+            //AkSoundEngine.StopPlayingID(playingID);
+            Destroy(fanSFX);
             AkSoundEngine.PostEvent("fan_stops", sfxObj);
             soundPlaying = false;
             animator.SetBool("fanAnim", false);
@@ -115,6 +120,7 @@ public class FanHandler : MonoBehaviour
 
     private void OnDisable()
     {
-        AkSoundEngine.StopPlayingID(playingID);
+        //AkSoundEngine.StopPlayingID(playingID);
+        Destroy(fanSFX);
     }
 }
