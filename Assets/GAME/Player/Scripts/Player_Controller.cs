@@ -14,6 +14,7 @@ public class Player_Controller : MonoBehaviour
     public Animator animator;
 
     public GameObject sfxObj;
+    public GameObject PauseMenu;
 
     //Ground Collision Raycast Variables
     public Vector2 boxSize;
@@ -43,7 +44,7 @@ public class Player_Controller : MonoBehaviour
     public float dashCooldown = 1f;
     
     public bool wasGrounded;
-    public bool landSound = false;
+    public bool landSound = false; 
 
     void Start() //runs on start
     {
@@ -52,6 +53,10 @@ public class Player_Controller : MonoBehaviour
     
     void Update() //constantly running things
     {
+        if (PauseMenu.activeInHierarchy) // stops the player from making inputs if the game is paused
+        {
+            return;
+        }
         if (isDashing) // prevents other systems if dashing
         {
             return;

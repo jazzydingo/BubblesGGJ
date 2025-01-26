@@ -19,11 +19,13 @@ public class ResetButton : MonoBehaviour
     public void Reset()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
     }
 
     public void SpeedUp()
     {
         if(GameObject.FindWithTag("Bubble") != null)
         GameObject.FindWithTag("Bubble").GetComponent<BubbleController>().speed += 75;
+        Time.timeScale = 1f;
     }
 }
