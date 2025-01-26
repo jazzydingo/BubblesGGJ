@@ -96,7 +96,7 @@ public class FanHandler : MonoBehaviour
             {
                 //playingID = AkSoundEngine.PostEvent("fan_starts", sfxObj);
                 //AkSoundEngine.PostEvent("fan_starts", sfxObj);
-                GameObject fanSFX = Instantiate(fanPrefab);
+                fanSFX = Instantiate(fanPrefab);
                 soundPlaying = true;
                 animator.SetBool("fanAnim", true);
             }

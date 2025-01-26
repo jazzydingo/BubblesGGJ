@@ -204,6 +204,8 @@ MonoBehaviour:
   left: 0
   right: 0
   bubble: {fileID: 0}
+  fanSFX: {fileID: 0}
+  fanPrefab: {fileID: 145854503377813063, guid: f8e1ed1dac293ce4785c8b55803354d7, type: 3}
   sfxObj: {fileID: 0}
   bubbles: {fileID: 1524742379817131827}
   soundPlaying: 0
