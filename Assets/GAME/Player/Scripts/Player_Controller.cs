@@ -44,7 +44,11 @@ public class Player_Controller : MonoBehaviour
     public float dashCooldown = 1f;
     
     public bool wasGrounded;
-    public bool landSound = false; 
+    public bool landSound = false;
+
+    // MISC
+    public float interactAnimTime = 0.2f;
+
 
     void Start() //runs on start
     {
@@ -64,12 +68,14 @@ public class Player_Controller : MonoBehaviour
             return;
         }
         FallAnim();
+        InteractAnim();
         Coyote();
         JumpBuffer();
         Run();
         Jump();
         Dashing();
         Flip();
+       
     }
     private void Run() //Horizontal Movement
     {
@@ -191,6 +197,25 @@ public class Player_Controller : MonoBehaviour
             return false;
         }
     }
+    private void InteractAnim() //Interaction Animator
+    {
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            StartCoroutine(InteractionAnim());
+                
+        }
+        
+    }
+    private IEnumerator InteractionAnim()
+    {
+        {
+            animator.SetBool("AnimInteract", true);
+            yield return new WaitForSeconds(interactAnimTime);
+            animator.SetBool("AnimInteract", false);
+        }
+    }
+
+    
     private void FallAnim()//Fall Animation Checks
     {
         animator.SetBool("isJumping", !isGrounded() && myRigidbody.linearVelocityY >= 0f);
