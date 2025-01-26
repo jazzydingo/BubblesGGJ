@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,20 +127,20 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_0
+      name: WoodBarrel
       rect:
         serializedVersion: 2
         x: 0
-        y: 159
-        width: 29
-        height: 33
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 88ad4e47fb4189400800000000000000
       internalID: 331037385144195720
@@ -149,20 +149,20 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_1
+      name: WoodWallRB
       rect:
         serializedVersion: 2
-        x: 31
-        y: 95
-        width: 129
-        height: 97
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 64ec05833bf5f4fd0800000000000000
       internalID: -2355558856742875578
@@ -171,20 +171,20 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_2
+      name: WoodWallRM
       rect:
         serializedVersion: 2
-        x: 159
-        y: 64
-        width: 33
-        height: 128
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 8ce881baf1f225e70800000000000000
       internalID: 9102389609930198728
@@ -193,20 +193,20 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_3
+      name: WoodWallRT
       rect:
         serializedVersion: 2
-        x: 0
-        y: 95
-        width: 24
-        height: 21
+        x: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: b65ac0ef9bb1053b0800000000000000
       internalID: -5525886257138457237
@@ -215,20 +215,20 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_4
+      name: WoodWallUT
       rect:
         serializedVersion: 2
-        x: 25
-        y: 95
-        width: 7
-        height: 16
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 601fb263f36911eb0800000000000000
       internalID: -4750850933663207162
@@ -237,20 +237,20 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_5
+      name: WoodWallBB
       rect:
         serializedVersion: 2
-        x: 64
-        y: 95
-        width: 7
-        height: 16
+        x: 160
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 82299efdbc9e66420800000000000000
       internalID: 2623040894834151976
@@ -259,20 +259,20 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_6
+      name: WoodWallLT
       rect:
         serializedVersion: 2
-        x: 89
-        y: 95
-        width: 7
-        height: 20
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: a7a14f7297c3b5550800000000000000
       internalID: 6150576207163562618
@@ -281,20 +281,20 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_7
+      name: WoodWallLM
       rect:
         serializedVersion: 2
-        x: 95
-        y: 90
-        width: 34
-        height: 26
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 79a16704e61357940800000000000000
       internalID: 5293191286641531543
@@ -303,20 +303,20 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_8
+      name: WoodWallLB
       rect:
         serializedVersion: 2
-        x: 127
-        y: 63
-        width: 33
-        height: 33
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 577ff8c64ceba79f0800000000000000
       internalID: -469853460262553739
@@ -325,23 +325,583 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GGJ2025WoodAssetSheet_9
+      name: WoodWallUM
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 192
-        height: 84
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: c5787bd4855897e30800000000000000
       internalID: 4501775916841011036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodWallBM
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c1492345f9b204aa3b6234090e2b3a
+      internalID: -1022777015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodFence1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb2efd50d52a6a4cb444718a86d2071
+      internalID: -496527304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodFence2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2563c0911c4888c40ad6033ebce1fa3f
+      internalID: -1033284664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodFence3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3a69ed0887f2d4e91d9e9d90328fcb
+      internalID: -1184436507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodFence4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b6a4e13e16a90448f2213af02e4678
+      internalID: 1362140228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodWallUB
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72504bdcbe4f87546bf30d4437152a75
+      internalID: -178486563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodWallBT
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada76b6cfed7a564dbee624ad61f42b7
+      internalID: 586201593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodFence5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22355ce760e9f524294025db52c02a0e
+      internalID: -308841821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodFence6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7398cf1d18d3c1940adfdd7d41e4ed21
+      internalID: -119337618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodFence7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51393748241077448e2e7d137e3055e
+      internalID: -1408497395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlatformMid
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc2cdd6c950ceb4da561d880c6233e8
+      internalID: 1891077270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPalisadeT
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28a8743022698c48a1394b482c68882
+      internalID: -1358194826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPalisadeR
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f127a2cafbb4ec438996f341127b752
+      internalID: 1618214825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodBraceUL
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6100a261c2d27794a964922e85e1dc08
+      internalID: -1823086456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodBraceUR
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6268d010dd556149bd564a0c6221a75
+      internalID: -2067062277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlatformEndL
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31020b4349884dd4aa4f0d43a3e6bd9b
+      internalID: 1073398643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlatformEndR
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3a8fb8eb7219b43913c38f264efdd4
+      internalID: -2041519298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPalisade
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ca37f0b95ab1444b655e3dda559402
+      internalID: -720339410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPalisadeB
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c9763900261f543aef3f1480de8cc9
+      internalID: -1660391411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodBraceBL
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb58871dba2568849911e58d8cef2dad
+      internalID: -1063081416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodBraceBR
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba678d8670be6514599ed17b14c002a5
+      internalID: -2081085896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlatformL
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286bdd1dc33f7694baa3885b13dece59
+      internalID: 629828016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodPlatformR
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c455f48232a414292e5491a0269b64
+      internalID: 2098509728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UsableWoodPlatformL
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: 11}
+        - {x: -14, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ebaf5ad481d5944bd1c435e8211e6a
+      internalID: -179187182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UsableWoodPlatformR
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 11}
+        - {x: 16, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: 11}
+        - {x: -14, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b97c8c7ae88ff24eb1b0a7c84cd16f0
+      internalID: -458215663
       vertices: []
       indices: 
       edges: []
@@ -350,7 +910,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 96bf2ad3b7aa9c14b842dfb702e6fd2a
     internalID: 0
     vertices: []
     indices: 
@@ -360,16 +920,41 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GGJ2025WoodAssetSheet_0: 331037385144195720
-      GGJ2025WoodAssetSheet_1: -2355558856742875578
-      GGJ2025WoodAssetSheet_2: 9102389609930198728
-      GGJ2025WoodAssetSheet_3: -5525886257138457237
-      GGJ2025WoodAssetSheet_4: -4750850933663207162
-      GGJ2025WoodAssetSheet_5: 2623040894834151976
-      GGJ2025WoodAssetSheet_6: 6150576207163562618
-      GGJ2025WoodAssetSheet_7: 5293191286641531543
-      GGJ2025WoodAssetSheet_8: -469853460262553739
-      GGJ2025WoodAssetSheet_9: 4501775916841011036
+      UsableWoodPlatformL: -179187182
+      UsableWoodPlatformR: -458215663
+      WoodBarrel: 331037385144195720
+      WoodBraceBL: -1063081416
+      WoodBraceBR: -2081085896
+      WoodBraceUL: -1823086456
+      WoodBraceUR: -2067062277
+      WoodFence1: -496527304
+      WoodFence2: -1033284664
+      WoodFence3: -1184436507
+      WoodFence4: 1362140228
+      WoodFence5: -308841821
+      WoodFence6: -119337618
+      WoodFence7: -1408497395
+      WoodPalisade: -720339410
+      WoodPalisadeB: -1660391411
+      WoodPalisadeR: 1618214825
+      WoodPalisadeT: -1358194826
+      WoodPlatformEndL: 1073398643
+      WoodPlatformEndR: -2041519298
+      WoodPlatformL: 629828016
+      WoodPlatformMid: 1891077270
+      WoodPlatformR: 2098509728
+      WoodWallBB: 2623040894834151976
+      WoodWallBM: -1022777015
+      WoodWallBT: 586201593
+      WoodWallLB: -469853460262553739
+      WoodWallLM: 5293191286641531543
+      WoodWallLT: 6150576207163562618
+      WoodWallRB: -2355558856742875578
+      WoodWallRM: 9102389609930198728
+      WoodWallRT: -5525886257138457237
+      WoodWallUB: -178486563
+      WoodWallUM: 4501775916841011036
+      WoodWallUT: -4750850933663207162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
