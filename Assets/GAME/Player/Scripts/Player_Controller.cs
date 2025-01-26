@@ -199,7 +199,7 @@ public class Player_Controller : MonoBehaviour
     }
     private void InteractAnim() //Interaction Animator
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             StartCoroutine(InteractionAnim());
                 
