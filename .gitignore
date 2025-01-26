@@ -73,3 +73,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
 Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+ProjectSettings/EditorBuildSettings.asset
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
