@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4585931292738926602}
   - component: {fileID: 623974037786567680}
   - component: {fileID: 5542572059054020371}
+  - component: {fileID: 4168398885824817589}
   m_Layer: 2
   m_Name: fangray
   m_TagString: Untagged
@@ -202,7 +203,31 @@ MonoBehaviour:
   left: 0
   right: 0
   bubble: {fileID: 0}
+  sfxObj: {fileID: 0}
   bubbles: {fileID: 1524742379817131827}
+  soundPlaying: 0
+--- !u!95 &4168398885824817589
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3448988787279213943}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2ff81983dbf66784da38f4e4f6a20ddc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3902650149225269467
 GameObject:
   m_ObjectHideFlags: 0

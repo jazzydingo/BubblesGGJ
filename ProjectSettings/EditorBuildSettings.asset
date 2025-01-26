@@ -27,14 +27,41 @@ EditorBuildSettings:
     path: Assets/GAME/Scenes/4 LevelZero.unity
     guid: 65aea24c902a2a0409e5fc8c80b6314f
   - enabled: 1
+    path: Assets/GAME/Scenes/5 ParkourPrecision.unity
+    guid: 3a9f31586bd79ec4c951e651f9003a02
+  - enabled: 1
     path: Assets/GAME/Scenes/6 LevelOne.unity
     guid: 64db804a9cf28af48a7f9147c0893d5d
+  - enabled: 1
+    path: Assets/GAME/Scenes/7 Level 3.unity
+    guid: b44044514a58e1d44b4038b7bd41ef7d
+  - enabled: 1
+    path: Assets/GAME/Scenes/8 Level.unity
+    guid: d20b7523c73ae1a409a50bcb78b25824
   - enabled: 1
     path: Assets/GAME/Scenes/9 Level 1.unity
     guid: 97c96fefa3b22ea488a0fdcb08899677
   - enabled: 1
+    path: Assets/GAME/Scenes/10 Parkour2.unity
+    guid: a0c243a856d35c14fb9727c292806e1a
+  - enabled: 1
+    path: Assets/GAME/Scenes/11 level11.unity
+    guid: 9c25ed3d92f5d4e6a8b1512c16838f10
+  - enabled: 1
     path: Assets/GAME/Scenes/12 level.unity
     guid: afb81395e1268f54c9e5f6cf2639c559
+  - enabled: 1
+    path: Assets/GAME/Scenes/13 Parkour 2.unity
+    guid: 9aca5f8b3541a5542a18a0c55bda15a2
+  - enabled: 1
+    path: Assets/GAME/Scenes/14 level.unity
+    guid: 475d81bfa1248b649821aeca1f451c08
+  - enabled: 1
+    path: Assets/GAME/Scenes/15 level 5.unity
+    guid: ea7546cae436b92409e524b5ba97c7c8
+  - enabled: 1
+    path: Assets/GAME/Scenes/16 Level.unity
+    guid: f9ff68950a9616f4694cce670d1912b1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
