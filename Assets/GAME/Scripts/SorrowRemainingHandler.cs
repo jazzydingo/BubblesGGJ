@@ -58,16 +58,34 @@ public class SorrowRemainingHandler : MonoBehaviour
         }
         else if(SceneManager.GetActiveScene().buildIndex == 11)
         {
-            remaining = 8;
+            remaining = 6;
         }
         else if(SceneManager.GetActiveScene().buildIndex == 12)
         {
-            remaining = 7;
+            remaining = 5;
         }
-        else if(SceneManager.GetActiveScene().buildIndex == 13)
+        else if(SceneManager.GetActiveScene().buildIndex == 14)
         {
-            remaining = 6;
+            remaining = 4;
         }
+        else if(SceneManager.GetActiveScene().buildIndex == 15)
+        {
+            remaining = 3;
+        }
+        else if(SceneManager.GetActiveScene().buildIndex == 16)
+        {
+            remaining = 2;
+        }
+        else if(SceneManager.GetActiveScene().buildIndex == 17)
+        {
+            remaining = 1;
+        }
+        else if(SceneManager.GetActiveScene().buildIndex == 18)
+        {
+            remaining = 0;
+        }
+
+
 
 
 
