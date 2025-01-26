@@ -15,6 +15,10 @@ public class FanHandler : MonoBehaviour
 
     public ParticleSystem bubbles;
 
+    uint playingID;
+
+    public bool soundPlaying;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +26,7 @@ public class FanHandler : MonoBehaviour
         overlap = false;
         bubbles.gameObject.SetActive(false);
         sfxObj = GameObject.FindWithTag("SFX");
+        soundPlaying = false;
     }
 
     // Update is called once per frame
@@ -82,13 +87,30 @@ public class FanHandler : MonoBehaviour
         fan = !fan;
         if(fan)
         {
-            AkSoundEngine.PostEvent("fan_starts", sfxObj);
+            if(!soundPlaying)
+            {
+                playingID = AkSoundEngine.PostEvent("fan_starts", sfxObj);
+                AkSoundEngine.PostEvent("fan_starts", sfxObj);
+                soundPlaying = true;
+            }
+            else
+            {
+                Debug.Log("sound playing");
+            }
+            
 
         }
         else
         {
+            AkSoundEngine.StopPlayingID(playingID);
             AkSoundEngine.PostEvent("fan_stops", sfxObj);
+            soundPlaying = false;
         }
+        
+    }
 
+    private void OnDisable()
+    {
+        AkSoundEngine.StopPlayingID(playingID);
     }
 }
