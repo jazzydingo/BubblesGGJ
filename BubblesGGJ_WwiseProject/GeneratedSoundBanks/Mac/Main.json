@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{9D1E654E-1330-CD7E-BE6D-C5C9A2C8CE1B}",
+    "Hash": "{EBDD44BE-F56C-11A7-E178-E81415CF4D46}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -112,6 +112,14 @@
       "CachePath": "B4/{B4E71F8D-CCCB-9B68-3FAC-6D37EB30EA92}.wem"
      },
      {
+      "Id": "799411808",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "door.wav",
+      "CachePath": "0C/{0C1EC486-9384-2C2F-14C7-2EAD04B27A9D}.wem"
+     },
+     {
       "Id": "879072999",
       "Language": "SFX",
       "Streaming": "false",
@@ -161,6 +169,20 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1877847629",
+      "Name": "door",
+      "ObjectPath": "\\Events\\Default Work Unit\\door",
+      "GUID": "{61B85708-47DA-4CA8-A162-74833F85E78A}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.3267121",
+      "DurationMax": "2.3267121",
+      "MediaRefs": [
+       {
+        "Id": "799411808"
+       }
+      ]
+     },
      {
       "Id": "1231114980",
       "Name": "fan_starts",
@@ -302,6 +324,6 @@
     ]
    }
   ],
-  "FileHash": "{CA99CDE2-BDBD-4D24-3CB9-E98084FDCF6A}"
+  "FileHash": "{BA262A72-D7E4-34B4-31C7-F5D291BC00BE}"
  }
 }

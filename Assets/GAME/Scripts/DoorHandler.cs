@@ -9,13 +9,14 @@ public class DoorHandler : MonoBehaviour
     public bool player;
     public Sprite openDoor;
     public Material material;
+    public GameObject sfxObj;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //bubble = false;
         //player = false;
-        
+        sfxObj = GameObject.FindWithTag("SFX");        
         material = this.gameObject.GetComponent<SpriteRenderer>().material;
     }
 
@@ -41,6 +42,7 @@ public class DoorHandler : MonoBehaviour
         if(bubble)
         {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = openDoor;
+            
         }
     }
 
@@ -55,6 +57,7 @@ public class DoorHandler : MonoBehaviour
                 Destroy(other.gameObject);
                 //set bubble true
                 bubble = true;
+                AkSoundEngine.PostEvent("door", sfxObj);
             }
             
         }
