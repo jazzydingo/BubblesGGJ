@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: b200cf09b5241849875dcd293270141b
-    ParentPath: Virtual Acoustics/Default Work Unit
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: b200cf09b5241849875dcd293270141b
     GuidInternal: 
-    m_lastTime: -8584639008265196060
+    m_lastTime: -8584639235979326193
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 6cc6a8d8ba8eea4e82af058ec558a85b
-    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6cc6a8d8ba8eea4e82af058ec558a85b
     GuidInternal: 
-    m_lastTime: -8584636866055345948
+    m_lastTime: -8584637340804954144
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,10 +63,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c21469e33fa3b3418ea3638182eee65e
-    ParentPath: SoundBanks/Default Work Unit
+    ParentPath: SoundBanks\Default Work Unit
     guid: c21469e33fa3b3418ea3638182eee65e
     GuidInternal: 
-    m_lastTime: -8584636866054030132
+    m_lastTime: -8584636876072030432
     List:
     - name: Main
       guid: ae3f75cb80fbdd4489b28258a11c146b
@@ -81,9 +81,9 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
         guid: ae3f75cb80fbdd4489b28258a11c146b
-      Path: SoundBanks/Default Work Unit/Main
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -91,10 +91,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 3eb30d4ca6338042aab81d1120b1c7d7
-    ParentPath: Events/Default Work Unit
+    ParentPath: Events\Default Work Unit
     guid: 3eb30d4ca6338042aab81d1120b1c7d7
     GuidInternal: 
-    m_lastTime: -8584636866055466153
+    m_lastTime: -8584636876073435035
     List:
     - name: blobfish
       guid: 2d8988de5337ce4fbeae2b6ad2c846ae
@@ -109,7 +109,7 @@ MonoBehaviour:
       - ElementName: blobfish
         ObjectType: 3
         guid: 2d8988de5337ce4fbeae2b6ad2c846ae
-      Path: Events/Default Work Unit/blobfish
+      Path: Events\Default Work Unit\blobfish
       maxAttenuation: 0
       maxDuration: 2.73
       minDuration: 2.73
@@ -126,7 +126,7 @@ MonoBehaviour:
       - ElementName: bubble_spawn
         ObjectType: 3
         guid: 3fd868f38bcbb94ba76ceedd1c50ead8
-      Path: Events/Default Work Unit/bubble_spawn
+      Path: Events\Default Work Unit\bubble_spawn
       maxAttenuation: 0
       maxDuration: 1.672585
       minDuration: 1.672585
@@ -143,7 +143,7 @@ MonoBehaviour:
       - ElementName: crabby
         ObjectType: 3
         guid: dcc0fe71e3fbcf43bc0a7bdc71d971c0
-      Path: Events/Default Work Unit/crabby
+      Path: Events\Default Work Unit\crabby
       maxAttenuation: 0
       maxDuration: 2.2851021
       minDuration: 2.2851021
@@ -160,7 +160,7 @@ MonoBehaviour:
       - ElementName: door
         ObjectType: 3
         guid: 0857b861da47a84ca16274833f85e78a
-      Path: Events/Default Work Unit/door
+      Path: Events\Default Work Unit\door
       maxAttenuation: 0
       maxDuration: 2.3267121
       minDuration: 2.3267121
@@ -177,7 +177,7 @@ MonoBehaviour:
       - ElementName: fan
         ObjectType: 4
         guid: d3dc6a96da0aff4a9a570539363095cb
-      Path: Events/Default Work Unit/fan
+      Path: Events\Default Work Unit\fan
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -197,7 +197,7 @@ MonoBehaviour:
       - ElementName: fan_starts
         ObjectType: 3
         guid: 8626eba4c56dae43923720319ed51612
-      Path: Events/Default Work Unit/fan/fan_starts
+      Path: Events\Default Work Unit\fan\fan_starts
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
       - ElementName: fan_stops
         ObjectType: 3
         guid: e307ae8924af00458bc7d2ab62e272d0
-      Path: Events/Default Work Unit/fan/fan_stops
+      Path: Events\Default Work Unit\fan\fan_stops
       maxAttenuation: 0
       maxDuration: 5.00746
       minDuration: 5.00746
@@ -234,7 +234,7 @@ MonoBehaviour:
       - ElementName: lever
         ObjectType: 3
         guid: d18791ddf577d040b695fce077fbad1d
-      Path: Events/Default Work Unit/lever
+      Path: Events\Default Work Unit\lever
       maxAttenuation: 0
       maxDuration: 1.4993877
       minDuration: 1.4993877
@@ -254,7 +254,7 @@ MonoBehaviour:
       - ElementName: octo_dash
         ObjectType: 3
         guid: cfdf96410620c948933e013e6f696cba
-      Path: Events/Default Work Unit/Octopus/octo_dash
+      Path: Events\Default Work Unit\Octopus\octo_dash
       maxAttenuation: 0
       maxDuration: 1.8178004
       minDuration: 1.8178004
@@ -274,7 +274,7 @@ MonoBehaviour:
       - ElementName: octo_jump
         ObjectType: 3
         guid: 8993b8e9b298674ba339604aed1a17ba
-      Path: Events/Default Work Unit/Octopus/octo_jump
+      Path: Events\Default Work Unit\Octopus\octo_jump
       maxAttenuation: 0
       maxDuration: 1.1134014
       minDuration: 1.1134014
@@ -294,7 +294,7 @@ MonoBehaviour:
       - ElementName: octo_land
         ObjectType: 3
         guid: 0e680846cab3c842859c2af24c00b0a4
-      Path: Events/Default Work Unit/Octopus/octo_land
+      Path: Events\Default Work Unit\Octopus\octo_land
       maxAttenuation: 0
       maxDuration: 1.1627665
       minDuration: 1.1627665
@@ -311,7 +311,7 @@ MonoBehaviour:
       - ElementName: Octopus
         ObjectType: 4
         guid: 253a85349a709640a45d259bf36033dd
-      Path: Events/Default Work Unit/Octopus
+      Path: Events\Default Work Unit\Octopus
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -328,7 +328,7 @@ MonoBehaviour:
       - ElementName: play_music
         ObjectType: 3
         guid: 97762bb7fe8886409fbd29630ee8cf96
-      Path: Events/Default Work Unit/play_music
+      Path: Events\Default Work Unit\play_music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -345,7 +345,7 @@ MonoBehaviour:
       - ElementName: sorrow_collect
         ObjectType: 3
         guid: a836064bdb8e494995cf6948c64f1ca2
-      Path: Events/Default Work Unit/sorrow_collect
+      Path: Events\Default Work Unit\sorrow_collect
       maxAttenuation: 0
       maxDuration: 3.15
       minDuration: 3.15
@@ -362,12 +362,12 @@ MonoBehaviour:
       - ElementName: trap_door
         ObjectType: 3
         guid: 54f3d10d25c5d24ea1e684abcd23658c
-      Path: Events/Default Work Unit/trap_door
+      Path: Events\Default Work Unit\trap_door
       maxAttenuation: 0
       maxDuration: 1.6014966
       minDuration: 1.6014966
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -375,10 +375,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 9bc7007fbd8e354abda76788979c632b
-    ParentPath: Game Parameters/Default Work Unit
+    ParentPath: Game Parameters\Default Work Unit
     guid: 9bc7007fbd8e354abda76788979c632b
     GuidInternal: 
-    m_lastTime: -8584636866055462126
+    m_lastTime: -8584637340811986907
     List:
     - name: _MasterVolume
       guid: 79ab4a7c9ef1d64db11fb69d2f19d427
@@ -393,9 +393,9 @@ MonoBehaviour:
       - ElementName: _MasterVolume
         ObjectType: 13
         guid: 79ab4a7c9ef1d64db11fb69d2f19d427
-      Path: Game Parameters/Default Work Unit/_MasterVolume
+      Path: Game Parameters\Default Work Unit\_MasterVolume
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -403,13 +403,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 33bb1758ba408b40b56f3e29b8ed5bf7
-    ParentPath: States/Default Work Unit
+    ParentPath: States\Default Work Unit
     guid: 33bb1758ba408b40b56f3e29b8ed5bf7
     GuidInternal: 
-    m_lastTime: -8584639008265198550
+    m_lastTime: -8584639235979355011
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -417,13 +417,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: fddf16adb780d64982b7e23bd2bf0459
-    ParentPath: Switches/Default Work Unit
+    ParentPath: Switches\Default Work Unit
     guid: fddf16adb780d64982b7e23bd2bf0459
     GuidInternal: 
-    m_lastTime: -8584639008265197747
+    m_lastTime: -8584639235979341293
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -431,10 +431,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: d920c97bd78d4b4088a6324c6831959a
-    ParentPath: Triggers/Default Work Unit
+    ParentPath: Triggers\Default Work Unit
     guid: d920c97bd78d4b4088a6324c6831959a
     GuidInternal: 
-    m_lastTime: -8584639008265196907
+    m_lastTime: -8584639235979341293
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 05000000060000000f0000001a0000001b000000
