@@ -15,7 +15,7 @@ public class CreditsQuit : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         SceneManager.LoadScene(0);
     }
