@@ -12,6 +12,7 @@
 						<ObjectRef Name="sorrow_collect" ID="{4B0636A8-8EDB-4949-95CF-6948C64F1CA2}" WorkUnitID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="fan" ID="{966ADCD3-0ADA-4AFF-9A57-0539363095CB}" WorkUnitID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="bubble" ID="{ED96E4E9-CBD7-4D8C-8EE0-DA363DE5E47A}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="trap_door" ID="{0DD1F354-C525-4ED2-A1E6-84ABCD23658C}" WorkUnitID="{4C0DB33E-33A6-4280-AAB8-1D1120B1C7D7}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

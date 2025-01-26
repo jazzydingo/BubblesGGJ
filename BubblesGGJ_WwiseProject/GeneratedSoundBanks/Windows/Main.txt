@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1231114980	fan_starts			\Default Work Unit\fan\fan_starts	
 	1607715391	bubble_spawn			\Default Work Unit\bubble_spawn	
 	1877847629	door			\Default Work Unit\door	
+	2068868899	trap_door			\Default Work Unit\trap_door	
 	2483300628	octo_land			\Default Work Unit\Octopus\octo_land	
 	2782712987	lever			\Default Work Unit\lever	
 	2932040671	play_music			\Default Work Unit\play_music	
@@ -14,6 +15,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	82219155	octo_jump-005	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\06\{060432AE-999C-451E-1516-E1AD674C5962}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_jump\octo_jump-005		196500
 	82667878	octo_dash1	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\77\{77D9925F-3902-8959-7758-78B68ED1FBB8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_dash\octo_dash1		320756
 	97769534	fan_works	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\98\{988B8583-CBC2-1F40-DEC0-928577567750}.wem		\Actor-Mixer Hierarchy\Default Work Unit\fan_works		164300
+	114909943	trap_door	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\6C\{6C89A411-4F19-E9A4-B59A-C5A45415871E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\trap_door		264960
 	183669025	octo_land-004	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\27\{270118F1-733E-BD6F-A398-0DE8834B9A47}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_land\octo_land-004		205208
 	295866559	octo_jump-004	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\BF\{BFA42D71-757D-05E4-AE5E-771D8C8AA749}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_jump\octo_jump-004		196500
 	368394563	octo_jump-003	C:\Users\Andrei\Documents\GitHub\BubblesGGJ\BubblesGGJ_WwiseProject\.cache\72\{72F38306-C09E-3DF5-4FB2-13F11C39ABFF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\octo_jump\octo_jump-003		196500

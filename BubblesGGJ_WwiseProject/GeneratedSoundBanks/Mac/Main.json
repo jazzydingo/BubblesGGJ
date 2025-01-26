@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{030EC401-902F-CDD7-5A76-458E851B7F13}",
+    "Hash": "{D06D9450-79BA-823E-6EF9-11A231B87428}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -38,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "fan_works.wav",
       "CachePath": "98/{988B8583-CBC2-1F40-DEC0-928577567750}.wem"
+     },
+     {
+      "Id": "114909943",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "trap_door.wav",
+      "CachePath": "6C/{6C89A411-4F19-E9A4-B59A-C5A45415871E}.wem"
      },
      {
       "Id": "183669025",
@@ -342,10 +350,24 @@
         "Id": "699276314"
        }
       ]
+     },
+     {
+      "Id": "2068868899",
+      "Name": "trap_door",
+      "ObjectPath": "\\Events\\Default Work Unit\\trap_door",
+      "GUID": "{0DD1F354-C525-4ED2-A1E6-84ABCD23658C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8014965",
+      "DurationMax": "1.8014965",
+      "MediaRefs": [
+       {
+        "Id": "114909943"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{1028002E-3DF0-0337-72C4-9CFBA335467E}"
+  "FileHash": "{C6FE3A1B-DFCD-8989-CBD9-309A060C8136}"
  }
 }

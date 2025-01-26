@@ -138,6 +138,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="trap_door" ID="{0DD1F354-C525-4ED2-A1E6-84ABCD23658C}">
+					<ChildrenList>
+						<Action Name="" ID="{64E5BAF9-B493-460A-859A-1168C016A6D9}" ShortID="1067981037">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="trap_door" ID="{0C470F21-071F-4991-A00F-3682D419F4BA}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c21469e33fa3b3418ea3638182eee65e
     GuidInternal: 
-    m_lastTime: -8584637472666218232
+    m_lastTime: -8584637441065227904
     List:
     - name: Main
       guid: ae3f75cb80fbdd4489b28258a11c146b
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3eb30d4ca6338042aab81d1120b1c7d7
     GuidInternal: 
-    m_lastTime: -8584637454208606595
+    m_lastTime: -8584637441065247838
     List:
     - name: bubble_spawn
       guid: 3fd868f38bcbb94ba76ceedd1c50ead8
@@ -315,6 +315,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.15
       minDuration: 3.15
+    - name: trap_door
+      guid: 54f3d10d25c5d24ea1e684abcd23658c
+      id: 2068868899
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: trap_door
+        ObjectType: 3
+        guid: 54f3d10d25c5d24ea1e684abcd23658c
+      Path: Events\Default Work Unit\trap_door
+      maxAttenuation: 0
+      maxDuration: 1.8014965
+      minDuration: 1.8014965
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
