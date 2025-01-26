@@ -7264,6 +7264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxObj: {fileID: 0}
+  MenuMusic: {fileID: 1691270638}
 --- !u!1 &2003516782
 GameObject:
   m_ObjectHideFlags: 0

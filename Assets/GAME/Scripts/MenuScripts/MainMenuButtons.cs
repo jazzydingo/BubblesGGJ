@@ -6,6 +6,7 @@ public class MainMenuButtons : MonoBehaviour
 {
     private uint soundID;
     public GameObject sfxObj;
+    public GameObject MenuMusic;
 
     public void Start()
     {
@@ -14,6 +15,7 @@ public class MainMenuButtons : MonoBehaviour
     public void PlayGame()
     {
         //play sound
+        Destroy(MenuMusic);
         AkSoundEngine.PostEvent("play_octo_opening", sfxObj);
         //wait until sound end
         StartCoroutine(WaitForSound());
