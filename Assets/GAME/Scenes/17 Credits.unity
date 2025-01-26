@@ -485,14 +485,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Coding: @Discus, @jazzydingo
+  m_text: 'Coding: Robert Hunt, @jazzydingo
 
 
     UI: @Maaaarrrrrrsss
 
 
-    Parkour Design:
-    Brielle Foster, @jazzydingo
+    Parkour
+    Design: Brielle Foster, @jazzydingo
 
 
     Puzzle Design: Brielle Foster, @jazzydingo
@@ -502,7 +502,7 @@ MonoBehaviour:
     and Sounds: @gorkovoy
 
 
-    Art: @Discus
+    Art: Robert Hunt
 
 
 
@@ -1731,19 +1731,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1364267544763083417, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.000015258789
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1524473283181660445, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_fontAsset
@@ -1935,23 +1935,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 35
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6529289483309246572, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.000015258789
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6849224913926987140, guid: fd203e7fa53b1fb48ac3bd49828ab8f4, type: 3}
       propertyPath: m_fontAsset
