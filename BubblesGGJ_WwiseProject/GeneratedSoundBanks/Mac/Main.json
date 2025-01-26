@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{56C9243B-9C70-85A9-433D-A55085404CD8}",
+    "Hash": "{93BEA03F-C24A-FA36-B08F-76D6BE2608D2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_jump-005.wav",
-      "CachePath": "06/{060432AE-999C-451E-1516-E1AD674C5962}.wem"
+      "CachePath": "CF/{CFB65112-072C-0EDC-84A1-5ED1BF0B73BB}.wem"
      },
      {
       "Id": "82667878",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_dash1.wav",
-      "CachePath": "77/{77D9925F-3902-8959-7758-78B68ED1FBB8}.wem"
+      "CachePath": "FF/{FF51AB50-BAE4-8BF8-49A9-1DFDF0641142}.wem"
      },
      {
       "Id": "97769534",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "fan_works.wav",
-      "CachePath": "C4/{C4A35E36-4B8E-4944-C41C-535EB289D442}.wem"
+      "CachePath": "FF/{FF27F53F-2501-1E0E-DE61-43D7178F4704}.wem"
      },
      {
       "Id": "114909943",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "trap_door.wav",
-      "CachePath": "6C/{6C89A411-4F19-E9A4-B59A-C5A45415871E}.wem"
+      "CachePath": "C8/{C8812FC5-8215-DCB6-7AFC-86A5074EEE8A}.wem"
      },
      {
       "Id": "183669025",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_land-004.wav",
-      "CachePath": "27/{270118F1-733E-BD6F-A398-0DE8834B9A47}.wem"
+      "CachePath": "B9/{B90027F8-972A-76CD-2118-CE1C6C0FEA28}.wem"
      },
      {
       "Id": "295866559",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_jump-004.wav",
-      "CachePath": "BF/{BFA42D71-757D-05E4-AE5E-771D8C8AA749}.wem"
+      "CachePath": "1F/{1F5A1A86-FDBF-CEA8-82DF-13346B99944F}.wem"
      },
      {
       "Id": "368394563",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_jump-003.wav",
-      "CachePath": "72/{72F38306-C09E-3DF5-4FB2-13F11C39ABFF}.wem"
+      "CachePath": "97/{97028372-B14E-8739-7FB6-2D245C11CFA0}.wem"
      },
      {
       "Id": "376098875",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_dash2.wav",
-      "CachePath": "1B/{1B85366C-9416-3440-3AAE-D0CD840200BC}.wem"
+      "CachePath": "25/{254FCB2D-E92B-9C6A-3CA6-33992EE68DBD}.wem"
      },
      {
       "Id": "383118988",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_land-002.wav",
-      "CachePath": "00/{00072FF4-D123-B776-6533-FC13CA80AA0C}.wem"
+      "CachePath": "CE/{CE43AD00-9257-1597-3F2A-AC4C9AA48B01}.wem"
      },
      {
       "Id": "435543624",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "fan_stops.wav",
-      "CachePath": "AC/{AC986069-203B-3A27-BC26-27F1C2CCC15F}.wem"
+      "CachePath": "2D/{2D740751-B301-A328-DC2D-E973830D44AC}.wem"
      },
      {
       "Id": "473717917",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_jump-002.wav",
-      "CachePath": "CE/{CE4D6BE1-892A-7CC3-D36D-C8BDBE3A15E4}.wem"
+      "CachePath": "D6/{D6465042-DFB4-8765-06D8-A6F7B228A6F8}.wem"
      },
      {
       "Id": "502369979",
@@ -109,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "fan_starts.wav",
-      "CachePath": "64/{643E3CF0-A99A-E821-9302-03F7280A30BC}.wem"
+      "CachePath": "E4/{E43A7699-E634-B73A-16BB-90525559EEBD}.wem"
      },
      {
       "Id": "662339319",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_jump-001.wav",
-      "CachePath": "B4/{B4E71F8D-CCCB-9B68-3FAC-6D37EB30EA92}.wem"
+      "CachePath": "2D/{2D17A120-4CAF-7C21-4A19-23D62696477F}.wem"
      },
      {
       "Id": "699276314",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sorrow1.1.wav",
-      "CachePath": "2B/{2BEEAC46-A777-B6ED-8ECC-588AD983195E}.wem"
+      "CachePath": "30/{30AD459D-2AA1-0DF1-EC6A-232202B30DCA}.wem"
      },
      {
       "Id": "792759907",
@@ -133,7 +133,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "bubble.wav",
-      "CachePath": "A9/{A97E2C49-EF73-5A71-3AB4-44F8470CF17E}.wem"
+      "CachePath": "7A/{7A67E24B-E2F1-A6E5-D67F-CE09B6EC645F}.wem"
      },
      {
       "Id": "799411808",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "door.wav",
-      "CachePath": "0C/{0C1EC486-9384-2C2F-14C7-2EAD04B27A9D}.wem"
+      "CachePath": "52/{52CA6757-4FCB-2AFC-87BE-C2BEF2D7ECE3}.wem"
      },
      {
       "Id": "879072999",
@@ -149,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "lever.wav",
-      "CachePath": "F6/{F6E5F35C-C0AA-5F85-216F-1E9BCAA499DF}.wem"
+      "CachePath": "E5/{E5170EA0-1CD1-90E8-CD7C-568D05EC558B}.wem"
      },
      {
       "Id": "880605622",
@@ -157,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_dash3.wav",
-      "CachePath": "59/{59A0C06B-B0A9-EA2A-DA51-CEEE02A0B3B4}.wem"
+      "CachePath": "DB/{DBB1359C-8EE7-22CC-01AC-F296E0A0E1A1}.wem"
      },
      {
       "Id": "940297830",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_land-001.wav",
-      "CachePath": "AF/{AF1D90BF-F516-DC20-981A-7422C3370349}.wem"
+      "CachePath": "B6/{B67EA1E1-4305-A635-49EE-BF88404378F3}.wem"
      },
      {
       "Id": "1034230690",
@@ -173,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octopus_music.wav",
-      "CachePath": "14/{14E4F4DC-4CB0-AACC-1439-5B4631D85699}.wem"
+      "CachePath": "7F/{7F83B32F-76E1-E389-81BD-87A14EC4FA44}.wem"
      },
      {
       "Id": "1046550350",
@@ -181,7 +181,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "octo_land-003.wav",
-      "CachePath": "DB/{DB3553C0-D90F-1B5A-FB5C-9DDF4306162C}.wem"
+      "CachePath": "B2/{B2B3DFBA-2C36-BCD5-911E-68D2C2DA3222}.wem"
      }
     ],
     "Events": [
@@ -357,8 +357,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\trap_door",
       "GUID": "{0DD1F354-C525-4ED2-A1E6-84ABCD23658C}",
       "DurationType": "OneShot",
-      "DurationMin": "1.8014965",
-      "DurationMax": "1.8014965",
+      "DurationMin": "1.6014966",
+      "DurationMax": "1.6014966",
       "MediaRefs": [
        {
         "Id": "114909943"
@@ -368,6 +368,6 @@
     ]
    }
   ],
-  "FileHash": "{27528786-8635-2AA1-A67F-BB6B2EAF4ED7}"
+  "FileHash": "{DD5BA659-0E42-C8BD-F54B-B1E8A713BF35}"
  }
 }

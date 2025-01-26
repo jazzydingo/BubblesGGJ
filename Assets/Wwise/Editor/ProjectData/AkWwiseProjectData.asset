@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3eb30d4ca6338042aab81d1120b1c7d7
     GuidInternal: 
-    m_lastTime: -8584637379432715387
+    m_lastTime: -8584637340530473628
     List:
     - name: bubble_spawn
       guid: 3fd868f38bcbb94ba76ceedd1c50ead8
@@ -330,8 +330,8 @@ MonoBehaviour:
         guid: 54f3d10d25c5d24ea1e684abcd23658c
       Path: Events\Default Work Unit\trap_door
       maxAttenuation: 0
-      maxDuration: 1.8014965
-      minDuration: 1.8014965
+      maxDuration: 1.6014966
+      minDuration: 1.6014966
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
