@@ -360,6 +360,7 @@ MonoBehaviour:
   dashCooldown: 0.2
   wasGrounded: 0
   landSound: 0
+  interactAnimTime: 0.2
 --- !u!50 &7643769105616548305
 Rigidbody2D:
   serializedVersion: 5
