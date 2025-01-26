@@ -152,6 +152,7 @@ MonoBehaviour:
   player: 0
   openDoor: {fileID: 0}
   material: {fileID: 0}
+  sfxObj: {fileID: 0}
 --- !u!210 &6528117546033932384
 SortingGroup:
   m_ObjectHideFlags: 0
