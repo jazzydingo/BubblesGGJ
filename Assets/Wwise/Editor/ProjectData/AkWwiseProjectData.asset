@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: c21469e33fa3b3418ea3638182eee65e
     GuidInternal: 
-    m_lastTime: -8584637482728404975
+    m_lastTime: -8584637472666218232
     List:
     - name: Main
       guid: ae3f75cb80fbdd4489b28258a11c146b
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 3eb30d4ca6338042aab81d1120b1c7d7
     GuidInternal: 
-    m_lastTime: -8584637482728414943
+    m_lastTime: -8584637472666238120
     List:
+    - name: bubble_spawn
+      guid: 3fd868f38bcbb94ba76ceedd1c50ead8
+      id: 1607715391
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3eb30d4ca6338042aab81d1120b1c7d7
+      - ElementName: bubble_spawn
+        ObjectType: 3
+        guid: 3fd868f38bcbb94ba76ceedd1c50ead8
+      Path: Events\Default Work Unit\bubble_spawn
+      maxAttenuation: 0
+      maxDuration: 1.672585
+      minDuration: 1.672585
     - name: door
       guid: 0857b861da47a84ca16274833f85e78a
       id: 1877847629
@@ -355,7 +372,7 @@ MonoBehaviour:
     m_lastTime: -8584638225460979861
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000080000000a0000000b0000001400000016000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000b0000001400000016000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

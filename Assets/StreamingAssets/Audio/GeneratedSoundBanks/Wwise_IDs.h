@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BUBBLE_SPAWN = 1607715391U;
         static const AkUniqueID DOOR = 1877847629U;
         static const AkUniqueID FAN_STARTS = 1231114980U;
         static const AkUniqueID FAN_STOPS = 4174527246U;

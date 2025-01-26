@@ -127,6 +127,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="bubble_spawn" ID="{F368D83F-CB8B-4BB9-A76C-EEDD1C50EAD8}">
+					<ChildrenList>
+						<Action Name="" ID="{08B858EB-3EBB-4A56-9440-D2959C5AED66}" ShortID="588121300">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bubble" ID="{ED96E4E9-CBD7-4D8C-8EE0-DA363DE5E47A}" WorkUnitID="{ACDE0E95-3C00-47C4-B0D2-BEF7B028A89E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

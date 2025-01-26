@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CB753FAE-FB80-44DD-89B2-8258A11C146B}",
     "Language": "SFX",
-    "Hash": "{150F609D-EB44-F2D7-3C39-C4198DFD88F0}",
+    "Hash": "{B4F55C65-AE80-29E3-1D3F-34664FD61FB9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -112,6 +112,14 @@
       "CachePath": "B4/{B4E71F8D-CCCB-9B68-3FAC-6D37EB30EA92}.wem"
      },
      {
+      "Id": "792759907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "bubble.wav",
+      "CachePath": "A9/{A97E2C49-EF73-5A71-3AB4-44F8470CF17E}.wem"
+     },
+     {
       "Id": "799411808",
       "Language": "SFX",
       "Streaming": "false",
@@ -169,6 +177,20 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1607715391",
+      "Name": "bubble_spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\bubble_spawn",
+      "GUID": "{F368D83F-CB8B-4BB9-A76C-EEDD1C50EAD8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.672585",
+      "DurationMax": "1.672585",
+      "MediaRefs": [
+       {
+        "Id": "792759907"
+       }
+      ]
+     },
      {
       "Id": "1877847629",
       "Name": "door",
@@ -324,6 +346,6 @@
     ]
    }
   ],
-  "FileHash": "{9A9D03BF-DF28-52C8-0298-5C67AD3A8EFC}"
+  "FileHash": "{5CB47AD8-78BC-AC6B-50FF-97B3B9C9DC95}"
  }
 }
