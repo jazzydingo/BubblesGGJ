@@ -19,7 +19,7 @@ public class Follow_player : MonoBehaviour
 
         if(finalLevel  && bubble != null)
         {
-            transform.position = bubble.transform.position + new Vector3(0, 1, -5);
+            transform.position = bubble.transform.position + new Vector3(4, 1, -5);
         }
         
     }
