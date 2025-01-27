@@ -25,11 +25,12 @@ public class SorrowRemainingHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        text.text = "Remaining:      x" + remaining;
         /*
         detected = false;
         sorrow = GameObject.FindWithTag("Sorrow");
         door = GameObject.FindWithTag("Door");
-        text.text = "Remaining:      x" + remaining;
+        
         if(sorrow != null)
         {
             puzzle = true;
@@ -44,8 +45,9 @@ public class SorrowRemainingHandler : MonoBehaviour
             
         }
         */
-        if(SceneManager.GetActiveScene().buildIndex == 6)
+        if (SceneManager.GetActiveScene().buildIndex == 6)
         {
+            Debug.Log("yes");
             remaining = 9;
         }
         else if(SceneManager.GetActiveScene().buildIndex == 9)

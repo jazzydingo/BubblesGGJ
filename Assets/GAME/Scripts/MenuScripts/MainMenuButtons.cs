@@ -16,20 +16,8 @@ public class MainMenuButtons : MonoBehaviour
 
     IEnumerator LoadSoundBankAsync()
     {
-        string soundBankPath = Application.streamingAssetsPath + "/Audio/GeneratedSoundBanks/Main.bnk";
-        uint bankID;
-
-        // Load the soundbank asynchronously
-        AKRESULT result = AkSoundEngine.LoadBank(soundBankPath, out bankID);
-
-        if (result == AKRESULT.AK_Success)
-        {
-            Debug.Log("SoundBank loaded successfully!");
-        }
-        else
-        {
-            Debug.LogError("Failed to load SoundBank.");
-        }
+        AkBankManager.LoadBank("Init", true, true);
+        AkBankManager.LoadBank("Main", true, true);
 
         yield return null;
     }

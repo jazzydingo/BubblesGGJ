@@ -1,0 +1,43 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "BubblesGGJ_WwiseProject",
+   "GUID": "{AD0E1FA2-3585-44DE-B1FF-32E2FD0176B1}",
+   "Generator": "2024.1.1.8691"
+  },
+  "CacheRoot": "../../../../BubblesGGJ_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{BA306BBD-7038-4588-BAD5-4098752FA4AD}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../BubblesGGJ_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Web",
+    "GUID": "{2685B1D4-F40D-4EB0-AC32-A2A06FB3A5FD}",
+    "BasePlatform": "Web",
+    "BasePlatformGUID": "{639AD233-23F2-4C0F-9127-79F44C15E1DA}",
+    "Path": "../../../../BubblesGGJ_WwiseProject/GeneratedSoundBanks/Web"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{AFAB39F6-987D-47EA-A99E-5B51DEE11E40}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../BubblesGGJ_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{394967DB-2552-4FAE-8499-9AFAEA3B4E00}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{C56B46AF-16FD-C7D9-02DA-BEB832055E84}"
+ }
+}

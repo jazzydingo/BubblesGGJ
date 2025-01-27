@@ -12,7 +12,10 @@ public class CreditsQuit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(GameObject.FindWithTag("Bubble").transform.position.y > 30)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
