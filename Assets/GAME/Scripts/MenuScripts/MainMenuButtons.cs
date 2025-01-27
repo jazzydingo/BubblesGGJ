@@ -9,18 +9,7 @@ public class MainMenuButtons : MonoBehaviour
     public GameObject sfxObj;
     public GameObject MenuMusic;
 
-    void Awake()
-    {
-        StartCoroutine(LoadSoundBankAsync());
-    }
-
-    IEnumerator LoadSoundBankAsync()
-    {
-        AkBankManager.LoadBank("Init", true, true);
-        AkBankManager.LoadBank("Main", true, true);
-
-        yield return null;
-    }
+    
 
 public void Start()
     {
