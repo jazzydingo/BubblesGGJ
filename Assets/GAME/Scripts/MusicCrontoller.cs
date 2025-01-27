@@ -12,10 +12,13 @@ public class MusicCrontoller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(SceneManager.GetActiveScene().buildIndex == 20)
+        {
+            Destroy(gameObject);
+        }
     }
     private void Awake()
-    { if (FindObjectsOfType<MusicCrontoller>().Length > 1 || SceneManager.GetActiveScene().buildIndex == 20)
+    { if (FindObjectsOfType<MusicCrontoller>().Length > 1 )
         {
             Destroy(gameObject);
 
