@@ -40,4 +40,9 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(sceneIndex);
     }
+
+    void OnDestroy()
+    {
+        AkSoundEngine.StopAll();
+    }
 }

@@ -197,7 +197,7 @@
 					<ChildrenList>
 						<MusicSegment Name="MenuMusic" ID="{5B14B9ED-DE80-44FD-89AB-D428FA3B2D6C}" ShortID="986256112">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="69600"/>
+								<Property Name="EndPosition" Type="Real64" Value="69773.9139610103"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -245,8 +245,8 @@
 																		<MusicClip Name="octo_menu_music" ID="{B1DCC357-94E7-4A21-937B-ED92E78B89F5}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="69600"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="5.55111512312578E-14"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="octo_menu_music" ID="{0D5EB0F5-294B-458C-BA16-318B068ECB02}"/>
 																		</MusicClip>
@@ -273,7 +273,7 @@
 											<MusicCue Name="Exit Cue" ID="{499EF30D-3452-4A42-B9D4-A2395A9E7E32}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+													<Property Name="TimeMs" Type="Real64" Value="69582.325260577"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
