@@ -4,23 +4,35 @@ using UnityEngine.UI;
 public class SliderHandler : MonoBehaviour
 {
     public Slider slider;
-    public float volume;
+    private float volume;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        slider.value = 75f;
-        AkSoundEngine.SetRTPCValue("_MasterVolume", slider.value, null);
+        // Load saved volume or default to 75
+        volume = PlayerPrefs.GetFloat("MasterVolume", 75f);
+        slider.value = volume;
+
+        // Set Wwise RTPC value
+        AkSoundEngine.SetRTPCValue("_MasterVolume", volume, null);
+
+        // Add listener to update volume
         slider.onValueChanged.AddListener(SetVolume);
     }
 
     void SetVolume(float sliderVal)
     {
-        Debug.Log("change");
-        Debug.Log(sliderVal);
+        Debug.Log("Volume Changed: " + sliderVal);
+        
+        volume = sliderVal;
+        PlayerPrefs.SetFloat("MasterVolume", volume);
+        PlayerPrefs.Save(); // Ensures data is saved immediately
+
         AkSoundEngine.SetRTPCValue("_MasterVolume", sliderVal, null);
     }
 
-    // Update is called once per frame
-    
+    void OnApplicationQuit()
+    {
+        // If you only want to reset the volume setting on quit
+        PlayerPrefs.DeleteKey("MasterVolume");
+    }
 }
