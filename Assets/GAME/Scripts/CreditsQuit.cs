@@ -12,7 +12,7 @@ public class CreditsQuit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameObject.FindWithTag("Bubble").transform.position.y > 30)
+        if(GameObject.FindWithTag("Bubble") != null && GameObject.FindWithTag("Bubble").transform.position.y > 30)
         {
             SceneManager.LoadScene(0);
         }

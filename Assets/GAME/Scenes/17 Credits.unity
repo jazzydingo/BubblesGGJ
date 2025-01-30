@@ -462,8 +462,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1874.8295, y: -1054.98}
-  m_SizeDelta: {x: 877.5787, y: 50}
+  m_AnchoredPosition: {x: -1874.8295, y: -1061.2322}
+  m_SizeDelta: {x: 877.5787, y: 1156.698}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &220825575
 MonoBehaviour:
@@ -488,22 +488,30 @@ MonoBehaviour:
   m_text: 'Coding: Robert Hunt, Jasmine Ding
 
 
+
     UI: Joshua Hernandez
+
 
 
     Parkour
     Design: Brielle Foster, Jasmine Ding
 
 
+
     Puzzle Design: Jasmine Ding, Brielle
     Foster
+
 
 
     Music and Sounds: Andrei Gorkovoi
 
 
+
     Art: Robert Hunt, Jasmine
     Ding
+
+
+
 
 
 
