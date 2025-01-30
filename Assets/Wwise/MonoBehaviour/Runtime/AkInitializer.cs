@@ -304,7 +304,7 @@ public class AkInitializer : UnityEngine.MonoBehaviour
 					new AkCommonUserSettings.SpatialAudioSettings();
 			}
 
-			initializationSettings.UserSettings.m_BasePath = akInitializer.basePath;
+			initializationSettings.UserSettings.m_BasePath = UnityEngine.Application.streamingAssetsPath;
 			initializationSettings.UserSettings.m_StartupLanguage = akInitializer.language;
 
 			initializationSettings.AdvancedSettings.m_MonitorQueuePoolSize = (uint)akInitializer.monitorQueuePoolSize * 1024;

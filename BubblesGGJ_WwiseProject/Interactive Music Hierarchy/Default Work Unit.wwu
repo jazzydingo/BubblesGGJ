@@ -197,7 +197,7 @@
 					<ChildrenList>
 						<MusicSegment Name="MenuMusic" ID="{5B14B9ED-DE80-44FD-89AB-D428FA3B2D6C}" ShortID="986256112">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="69600"/>
+								<Property Name="EndPosition" Type="Real64" Value="69645.2573883956"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -273,7 +273,7 @@
 											<MusicCue Name="Exit Cue" ID="{499EF30D-3452-4A42-B9D4-A2395A9E7E32}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="1000"/>
+													<Property Name="TimeMs" Type="Real64" Value="69600"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
